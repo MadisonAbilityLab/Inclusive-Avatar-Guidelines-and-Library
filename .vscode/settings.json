@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "PWD VR Avatar.sln"
+    "dotnet.defaultSolution": "pwd-vr-rep-lib.sln"
 }
