@@ -1,3 +1,3 @@
-# People With Disablity Virtual Reality Representation Library
+# Avatar Library for People With Disablities
 
-A library for PWD representation in virtual space.
+A ibrary designed for inclusive disabilities representations in social Virtual Realities.
