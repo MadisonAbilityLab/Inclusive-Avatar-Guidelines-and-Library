@@ -12,10 +12,10 @@ public class BoneBehaviorScript : MonoBehaviour
     bool changed = true;
 
     public bool reset = false;
-   
+
     float childrenSize = 0;
 
-     [SerializeField]
+    [SerializeField]
     float length = 1;
 
     // public Vector3 scale = Vector3.one;
@@ -27,7 +27,7 @@ public class BoneBehaviorScript : MonoBehaviour
 
     void MakeAllChildrenSize(GameObject gameObject, float size = 0)
     {
-       
+
         // Debug.Log(gameObject.transform.child);
 
         for (int i = 0; i < gameObject.transform.childCount; i++)
@@ -43,19 +43,31 @@ public class BoneBehaviorScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (bone != lastBone) {
+        if (length > 1)
+        {
+            length = 1;
+        }
+        if (length < 0)
+        {
+            length = 0;
+        }
+        if (bone != lastBone)
+        {
+            if (lastBone != null)
+            {
+                MakeAllChildrenSize(lastBone, 1);
+                lastBone.transform.localScale = new Vector3(1, 1, 1);
+            }
+
             lastBone = bone;
             changed = true;
         }
 
-        if (changed){
+        if (changed)
+        {
+
             childrenSize = 0;
             changed = false;
-        }
-
-        if (reset) {
-            childrenSize = 1;
-            reset = false;
         }
 
         MakeAllChildrenSize(bone, childrenSize);
