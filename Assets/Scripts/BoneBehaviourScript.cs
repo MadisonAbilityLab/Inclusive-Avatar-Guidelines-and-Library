@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using Unity.VisualScripting.Dependencies.Sqlite;
+using UnityEditor;
+using System.Reflection;
+using System.Linq;
+
 
 
 public class BoneBehaviorScript : MonoBehaviour
@@ -17,12 +21,42 @@ public class BoneBehaviorScript : MonoBehaviour
     [SerializeField]
     public List<BoneInfo> bones = new List<BoneInfo>();
     private List<BoneInfo> prevBones = new List<BoneInfo>();
+
+    void onBonesChange()
+    {
+        Debug.Log("On Bone Change");
+    }
+    bool isBoneChanged()
+    {
+        if (prevBones.Count != bones.Count)
+        {
+            return true;
+        }
+
+        for (int i = 0; i < bones.Count; i++)
+        {
+            if (bones[i].bone != prevBones[i].bone)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+    void setPrevBonesToCurrent()
+    {
+        prevBones.Clear();
+        foreach (var bone in bones)
+        {
+            prevBones.Add(bone);
+        }
+    }
+
     public GameObject root;
 
     // private GameObject lastBone;
 
-    [SerializeField]
-    bool changed = true;
+    // [SerializeField]
+    // bool changed = true;
 
     // public bool reset = false;
 
@@ -53,12 +87,16 @@ public class BoneBehaviorScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (changed)
+        if (isBoneChanged())
         {
-            MakeAllChildrenSize(root, 1);
-            root.transform.localScale = new Vector3(1, 1, 1);
-            // childrenSize = 0;
-            changed = false;
+            for (int i = 0; i < prevBones.Count; i++)
+            {
+                var bone = prevBones[i];
+                MakeAllChildrenSize(bone.bone, 1);
+                bone.bone.transform.localScale = new Vector3(1, 1, 1);
+            }
+
+            setPrevBonesToCurrent();
         }
 
         for (int i = 0; i < bones.Count; i++)
@@ -77,7 +115,5 @@ public class BoneBehaviorScript : MonoBehaviour
 
             bone.bone.transform.localScale = new Vector3(1, bone.length, 1);
         }
-
-
     }
 }
