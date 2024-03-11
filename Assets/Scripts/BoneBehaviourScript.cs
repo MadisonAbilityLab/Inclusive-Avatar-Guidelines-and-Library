@@ -1,22 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using Unity.VisualScripting.Dependencies.Sqlite;
+
 
 public class BoneBehaviorScript : MonoBehaviour
 {
+    [Serializable]
+    public struct BoneInfo
+    {
+        public GameObject bone;
+        public float length;
+    }
+
     [SerializeField]
-    public GameObject bone;
+    public List<BoneInfo> bones = new List<BoneInfo>();
+    private List<BoneInfo> prevBones = new List<BoneInfo>();
+    public GameObject root;
 
-    private GameObject lastBone;
+    // private GameObject lastBone;
 
+    [SerializeField]
     bool changed = true;
 
-    public bool reset = false;
+    // public bool reset = false;
 
-    float childrenSize = 0;
+    // float childrenSize = 0;
 
-    [SerializeField]
-    float length = 1;
+    // [SerializeField]
+    // float length = 1;
 
     // public Vector3 scale = Vector3.one;
     // Start is called before the first frame update
@@ -27,9 +40,6 @@ public class BoneBehaviorScript : MonoBehaviour
 
     void MakeAllChildrenSize(GameObject gameObject, float size = 0)
     {
-
-        // Debug.Log(gameObject.transform.child);
-
         for (int i = 0; i < gameObject.transform.childCount; i++)
         {
             GameObject go = gameObject.transform.GetChild(i).gameObject;
@@ -43,35 +53,31 @@ public class BoneBehaviorScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (length > 1)
-        {
-            length = 1;
-        }
-        if (length < 0)
-        {
-            length = 0;
-        }
-        if (bone != lastBone)
-        {
-            if (lastBone != null)
-            {
-                MakeAllChildrenSize(lastBone, 1);
-                lastBone.transform.localScale = new Vector3(1, 1, 1);
-            }
-
-            lastBone = bone;
-            changed = true;
-        }
-
         if (changed)
         {
-
-            childrenSize = 0;
+            MakeAllChildrenSize(root, 1);
+            root.transform.localScale = new Vector3(1, 1, 1);
+            // childrenSize = 0;
             changed = false;
         }
 
-        MakeAllChildrenSize(bone, childrenSize);
+        for (int i = 0; i < bones.Count; i++)
+        {
+            var bone = bones[i];
+            if (bone.length < 0)
+            {
+                bone.length = 0;
+            }
+            if (bone.length > 1)
+            {
+                bone.length = 1;
+            }
 
-        bone.transform.localScale = new Vector3(1, length, 1);
+            MakeAllChildrenSize(bone.bone, 0);
+
+            bone.bone.transform.localScale = new Vector3(1, bone.length, 1);
+        }
+
+
     }
 }
