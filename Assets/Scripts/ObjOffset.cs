@@ -1,33 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ObjOffset : MonoBehaviour
 {
-    GameObject target;
+  public  GameObject target;
+    Vector3 targetDefaultPos;
 
-    
+    Vector3 thisDefaultPos;
+
+
+    Quaternion rotationOffset;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (target == null)
+        if (!target)
         {
-            target = new GameObject();
-            target.transform.position = transform.position;
-            target.transform.rotation = transform.rotation;
-            target.transform.localScale = transform.localScale;
-            target.transform.parent = transform.parent;
-            transform.parent = target.transform;
-            transform.localPosition = Vector3.zero;
-            transform.localRotation = Quaternion.identity;
-            transform.localScale = Vector3.one;
+            target = GameObject.Find("Player");
         }
+
+        targetDefaultPos = target.transform.position;
+        thisDefaultPos = transform.position;
+
+
+        // Print for debugging
+        Debug.Log("Target: " + target.transform.position);
+        Debug.Log("This: " + this.transform.position);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        var thisCurrPos = transform.position;
+        Vector3 offset = thisCurrPos - thisDefaultPos;
+
+        target.transform.position = targetDefaultPos + offset;
+        target.transform.rotation = transform.rotation;
     }
 }
