@@ -1,3 +1,3 @@
-# People With Disablity Virtual Reality Representation Library
+# People With Disability Virtual Reality Representation Library
 
 A library for PWD representation in virtual space.
