@@ -1,22 +1,69 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+// using Unity.VisualScripting.Dependencies.Sqlite;
+using UnityEditor;
+using System.Reflection;
+using System.Linq;
+
+
 
 public class BoneBehaviorScript : MonoBehaviour
 {
+    [Serializable]
+    public struct BoneInfo
+    {
+        public GameObject bone;
+        public float length;
+    }
+
     [SerializeField]
-    public GameObject bone;
+    public List<BoneInfo> bones = new List<BoneInfo>();
+    private List<BoneInfo> prevBones = new List<BoneInfo>();
 
-    private GameObject lastBone;
+    void onBonesChange()
+    {
+        Debug.Log("On Bone Change");
+    }
+    bool isBoneChanged()
+    {
+        if (prevBones.Count != bones.Count)
+        {
+            return true;
+        }
 
-    bool changed = true;
+        for (int i = 0; i < bones.Count; i++)
+        {
+            if (bones[i].bone != prevBones[i].bone)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
+    void setPrevBonesToCurrent()
+    {
+        prevBones.Clear();
+        foreach (var bone in bones)
+        {
+            prevBones.Add(bone);
+        }
+    }
 
-    public bool reset = false;
-   
-    float childrenSize = 0;
+    public GameObject root;
 
-     [SerializeField]
-    float length = 1;
+    // private GameObject lastBone;
+
+    // [SerializeField]
+    // bool changed = true;
+
+    // public bool reset = false;
+
+    // float childrenSize = 0;
+
+    // [SerializeField]
+    // float length = 1;
 
     // public Vector3 scale = Vector3.one;
     // Start is called before the first frame update
@@ -27,9 +74,6 @@ public class BoneBehaviorScript : MonoBehaviour
 
     void MakeAllChildrenSize(GameObject gameObject, float size = 0)
     {
-       
-        // Debug.Log(gameObject.transform.child);
-
         for (int i = 0; i < gameObject.transform.childCount; i++)
         {
             GameObject go = gameObject.transform.GetChild(i).gameObject;
@@ -43,23 +87,33 @@ public class BoneBehaviorScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (bone != lastBone) {
-            lastBone = bone;
-            changed = true;
+        if (isBoneChanged())
+        {
+            for (int i = 0; i < prevBones.Count; i++)
+            {
+                var bone = prevBones[i];
+                MakeAllChildrenSize(bone.bone, 1);
+                bone.bone.transform.localScale = new Vector3(1, 1, 1);
+            }
+
+            setPrevBonesToCurrent();
         }
 
-        if (changed){
-            childrenSize = 0;
-            changed = false;
+        for (int i = 0; i < bones.Count; i++)
+        {
+            var bone = bones[i];
+            if (bone.length < 0)
+            {
+                bone.length = 0;
+            }
+            if (bone.length > 1)
+            {
+                bone.length = 1;
+            }
+
+            MakeAllChildrenSize(bone.bone, 0);
+
+            bone.bone.transform.localScale = new Vector3(1, bone.length, 1);
         }
-
-        if (reset) {
-            childrenSize = 1;
-            reset = false;
-        }
-
-        MakeAllChildrenSize(bone, childrenSize);
-
-        bone.transform.localScale = new Vector3(1, length, 1);
     }
 }
