@@ -244,11 +244,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   frontWheel: {fileID: 400106052}
   backWheel: {fileID: 756538330}
+  root: {fileID: 914747779}
   frontAxis: 1
   backAxis: 2
+  moveAxis: 0
   frontSpeed: -3.63
   backSpeed: 2.25
-  scale: 1
+  scale: -10
+  speed: -0.01
 --- !u!1 &1604960622
 GameObject:
   m_ObjectHideFlags: 0
