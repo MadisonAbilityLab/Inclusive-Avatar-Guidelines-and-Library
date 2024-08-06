@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Char2 : WheelsRotate
 {
     public float speed = 1;
+    void OnValidate(){
+        ShowMore = false;
+    }
     
     void Start()
     {
@@ -16,6 +20,8 @@ public class Char2 : WheelsRotate
         backAxis = RotateAxes.X;
         frontSpeed = -1f;
         backSpeed = -1.5f;
+
+        ShowMore = false;
     }
 
     // Update is called once per frame

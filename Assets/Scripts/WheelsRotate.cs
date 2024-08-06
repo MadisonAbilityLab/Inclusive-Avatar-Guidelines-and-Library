@@ -12,6 +12,7 @@ public enum RotateAxes
 
 public class WheelsRotate : MonoBehaviour
 {
+    [HideInInspector]
     public bool ShowMore = true;
     [ConditionalField("ShowMore")]
     public GameObject frontWheel;
@@ -41,7 +42,7 @@ public class WheelsRotate : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         VUpdate();
     }

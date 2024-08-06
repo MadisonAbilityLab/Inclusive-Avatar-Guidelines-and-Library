@@ -5,7 +5,11 @@ using UnityEngine;
 public class Char1 : WheelsRotate
 {
     public float speed = 1;
-    
+    void OnValidate()
+    {
+        ShowMore = false;
+    }
+
     void Start()
     {
         frontWheel = transform.Find("Circle.002").gameObject;
