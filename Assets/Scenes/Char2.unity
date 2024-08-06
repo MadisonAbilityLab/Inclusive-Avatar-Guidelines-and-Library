@@ -368,6 +368,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3a99177c3d1d4b888be8e0e720cca7db, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2081221087}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 3a99177c3d1d4b888be8e0e720cca7db, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2081221088}
   m_SourcePrefab: {fileID: 100100000, guid: 3a99177c3d1d4b888be8e0e720cca7db, type: 3}
 --- !u!1 &2081221084 stripped
 GameObject:
@@ -391,21 +394,40 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081221084}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 52422254af129bd879453bbc955a9eda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ShowMore: 1
   frontWheel: {fileID: 2081221086}
   backWheel: {fileID: 2081221085}
-  root: {fileID: 2081221084}
   frontAxis: 0
   backAxis: 0
-  moveAxis: 2
   frontSpeed: 1.01
   backSpeed: -1.31
   scale: 50
-  speed: 0.01
+--- !u!114 &2081221088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081221084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78dd80f977bf5ed5947be442272307f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowMore: 0
+  frontWheel: {fileID: 0}
+  backWheel: {fileID: 0}
+  frontAxis: 0
+  backAxis: 0
+  frontSpeed: 1
+  backSpeed: 1
+  scale: 1
+  speed: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

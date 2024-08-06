@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using MyBox;
 using UnityEngine;
 
 public enum RotateAxes
@@ -11,20 +12,26 @@ public enum RotateAxes
 
 public class WheelsRotate : MonoBehaviour
 {
+    public bool ShowMore = true;
+    [ConditionalField("ShowMore")]
     public GameObject frontWheel;
+    [ConditionalField("ShowMore")]
     public GameObject backWheel;
-    public GameObject root;
+    // public GameObject root;
 
+    [ConditionalField("ShowMore")]
     public RotateAxes frontAxis;
+    [ConditionalField("ShowMore")]
     public RotateAxes backAxis;
 
-    public RotateAxes moveAxis;
+    // public RotateAxes moveAxis;
 
+    [ConditionalField("ShowMore")]
     public float frontSpeed = 1;
+    [ConditionalField("ShowMore")]
     public float backSpeed = 1;
+    [ConditionalField("ShowMore")]
     public float scale = 1;
-
-    public float speed = 1;
 
 
     // Start is called before the first frame update
@@ -36,24 +43,29 @@ public class WheelsRotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (frontWheel)
+        VUpdate();
+    }
+
+    protected virtual void VUpdate()
+    {
+if (frontWheel)
         {
 
             switch (frontAxis)
             {
                 case RotateAxes.X:
                     frontWheel.transform.Rotate(new Vector3(
-                        frontSpeed * scale * speed, 0, 0
+                        frontSpeed * scale, 0, 0
                     ));
                     break;
                 case RotateAxes.Y:
                     frontWheel.transform.Rotate(new Vector3(
-                            0, frontSpeed * scale * speed, 0
+                            0, frontSpeed * scale, 0
                         ));
                     break;
                 case RotateAxes.Z:
                     frontWheel.transform.Rotate(new Vector3(
-                                0, 0, frontSpeed * scale * speed
+                                0, 0, frontSpeed * scale
                             ));
                     break;
                 default:
@@ -68,35 +80,18 @@ public class WheelsRotate : MonoBehaviour
             {
                 case RotateAxes.X:
                     backWheel.transform.Rotate(new Vector3(
-                        backSpeed * scale * speed, 0, 0
+                        backSpeed * scale, 0, 0
                     ));
                     break;
                 case RotateAxes.Y:
                     backWheel.transform.Rotate(new Vector3(
-                            0, backSpeed * scale * speed, 0
+                            0, backSpeed * scale, 0
                         ));
                     break;
                 case RotateAxes.Z:
                     backWheel.transform.Rotate(new Vector3(
-                                0, 0, backSpeed * scale * speed
+                                0, 0, backSpeed * scale
                             ));
-                    break;
-                default:
-                    break;
-            }
-        }
-        if (root)
-        {
-            switch (moveAxis)
-            {
-                case RotateAxes.X:
-                    root.transform.position += new Vector3(speed, 0, 0);
-                    break;
-                case RotateAxes.Y:
-                    root.transform.position += new Vector3(0, speed, 0);
-                    break;
-                case RotateAxes.Z:
-                    root.transform.position += new Vector3(0, 0, speed);
                     break;
                 default:
                     break;
