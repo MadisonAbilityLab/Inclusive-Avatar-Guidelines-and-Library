@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class Char2 : WheelsRotate
 {
+    [Tooltip("The speed for the wheel chair.")]
     public float speed = 1;
     void OnValidate(){
         ShowMore = false;
