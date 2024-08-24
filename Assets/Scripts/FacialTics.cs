@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ButtonAnimationController : MonoBehaviour
+public class FacialTics : MonoBehaviour
 {
     public Animator animator;  // Reference to the Animator
     public Button button1, button2, button3, button4;  // References to the Buttons
