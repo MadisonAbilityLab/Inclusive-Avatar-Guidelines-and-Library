@@ -267,19 +267,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4294888521905262240, guid: bf1351464f3314506834d0d4b2a33885, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5264724
+      value: 0.6763899
       objectReference: {fileID: 0}
     - target: {fileID: -4294888521905262240, guid: bf1351464f3314506834d0d4b2a33885, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.6720395
+      value: -0.53600115
       objectReference: {fileID: 0}
     - target: {fileID: -4294888521905262240, guid: bf1351464f3314506834d0d4b2a33885, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.21991558
+      value: 0.46119714
       objectReference: {fileID: 0}
     - target: {fileID: -4294888521905262240, guid: bf1351464f3314506834d0d4b2a33885, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.47204545
+      value: 0.2061475
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: bf1351464f3314506834d0d4b2a33885, type: 3}
       propertyPath: m_Name
@@ -287,19 +287,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3253880245231876507, guid: bf1351464f3314506834d0d4b2a33885, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6720395
+      value: 0.53600127
       objectReference: {fileID: 0}
     - target: {fileID: 3253880245231876507, guid: bf1351464f3314506834d0d4b2a33885, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.5264723
+      value: -0.6763898
       objectReference: {fileID: 0}
     - target: {fileID: 3253880245231876507, guid: bf1351464f3314506834d0d4b2a33885, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.4720455
+      value: -0.2061474
       objectReference: {fileID: 0}
     - target: {fileID: 3253880245231876507, guid: bf1351464f3314506834d0d4b2a33885, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.21991566
+      value: -0.46119708
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -326,7 +326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61711df69655ef6899ac11aeca63074d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eyeDirection: -1
+  eyeDirection: 0.961
 --- !u!1 &674285046
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@ public class EyeBehavior : MonoBehaviour
     [Range(-1, 1)]
     public float eyeDirection = 0;
 
-    float range = 60;
+    float range = 1;
 
     GameObject leftEye;
     float lY = 0;
@@ -53,8 +53,6 @@ public class EyeBehavior : MonoBehaviour
         var rightEye = GetObj(head, "RightEye");
         this.leftEye = leftEye;
         this.rightEye = rightEye;
-        // lY = leftEye.transform.eulerAngles.y;
-        // rY = rightEye.transform.eulerAngles.y;
         lY = 90;
         rY = 90;
     }
