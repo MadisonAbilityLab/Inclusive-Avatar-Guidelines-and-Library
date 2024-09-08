@@ -1,7 +1,7 @@
 # Inclusive Avatar Design Guidelines
 
-1.  Avatar Body Appearance
-1.1 Support disability representation in social VR avatars.
+## 1.  Avatar Body Appearance
+### 1.1 Support disability representation in social VR avatars.
 
 Social VR avatars should let users freely present their disabilities. Like any other user groups, people with disabilities want to present their disability identity in social VR. However, they often can’t find readily available options to do so. Developers and designers should include more avatar features that represent multiple disabilities, such as offering different types of assistive devices like prosthetics for users to easily add on to their avatars, or allowing self-uploaded contents for creative and individualized disability representation.
 
