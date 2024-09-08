@@ -1,4 +1,4 @@
-# Avatar Library for People With Disabilities
+# Inclusive Avatar Design Guidelines
 
 A library designed for inclusive disabilities representations in social VR.
 
