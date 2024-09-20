@@ -11,4 +11,4 @@ Social VR avatars should let users freely present their disabilities. Like any o
 *“[I want to] artistically represent my disability, [for example,] I had a circle over one eye [to symbolize that] ‘I'm looking through a tunnel,’ and then having a tape over this eye.”*
 – a person with low vision
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.1.jpg" alt="G1.1. Example" width="400">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.1.jpg" alt="G1.1. Example" width="200">
