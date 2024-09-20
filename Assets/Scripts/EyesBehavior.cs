@@ -6,33 +6,32 @@ using UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Receiver.Primitives;
 
 public class EyeBehavior : MonoBehaviour
 {
-    [Hint("Change the eyes direction inward/outward.")]
+    // [Hint("Change the eyes direction inward/outward.")]
     [Range(-1, 1)]
-    public float eyeDirection = 0;
+    public float lEyeDirectionX = 0;
+    [Range(-1, 1)]
+    public float lEyeDirectionY = 0;
+    [Range(-1, 1)]
+    public float rEyeDirectionX = 0;
+    [Range(-1, 1)]
+    public float rEyeDirectionY = 0;
 
-    float range = 1;
+    float scaleX = 20;
+    float scaleY = 20;
 
     GameObject leftEye;
-    float lY = 0;
     GameObject rightEye;
-    float rY = 0;
 
     void OnValidate()
     {
         InitObjects();
+        // Apply rotations to the left and right eyes based on slider values
         var lTrans = leftEye.transform;
-        lTrans.eulerAngles = new Vector3(
-            lTrans.eulerAngles.x,
-            lY - range * eyeDirection,
-            lTrans.eulerAngles.z
-        );
+        lTrans.localRotation = Quaternion.Euler(0, lEyeDirectionX * scaleX, (-lEyeDirectionY - 1) * scaleY);
 
         var rTrans = rightEye.transform;
-        rTrans.eulerAngles = new Vector3(
-            rTrans.eulerAngles.x,
-            rY + range * eyeDirection,
-            rTrans.eulerAngles.z
-        );
+        rTrans.localRotation = Quaternion.Euler(0, rEyeDirectionX * scaleX, (-rEyeDirectionY - 1) * scaleY);
+
     }
 
     void InitObjects()
@@ -53,8 +52,8 @@ public class EyeBehavior : MonoBehaviour
         var rightEye = GetObj(head, "RightEye");
         this.leftEye = leftEye;
         this.rightEye = rightEye;
-        lY = 90;
-        rY = 90;
+        // lY = 90;
+        // rY = 90;
     }
 
     GameObject GetObj(GameObject parent, string childName)
