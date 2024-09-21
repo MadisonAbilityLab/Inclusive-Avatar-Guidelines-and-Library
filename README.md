@@ -196,7 +196,7 @@ With assistive technology being an extension of the user’s body, being able to
 <ins>Example:</ins>
 Users can adjust the color of the power wheelchair, like the cushions, wheels, and chassis cover.
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.2.png" alt="G3.2. Example" width="300" height="100">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.2.png" alt="G3.2. Example" width="320" height="140">
 
 
 ### 3.3. Provide high-quality, realistic simulation of assistive technology to present disability respectfully and avoid misuse.
@@ -212,7 +212,7 @@ As an emerging social platform, it’s not uncommon to see some avatars with dis
 <ins>Example:</ins>
 The low-fidelity wheelchair (left) [^7] might be misperceived as mocking. Instead, the wheelchair should be designed with high-fidelity and realistic details (right) to represent disability respectfully.
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.3.png" alt="G3.3. Example" width="300" height="100">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.3.png" alt="G3.3. Example" width="320" height="140">
 
 [^7]: Sketchfab wheelchair model. https://sketchfab.com/3d-models/wheelchair-json-08f4dafe05304cb785d9bcf980a44bc5 
 
