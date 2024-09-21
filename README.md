@@ -12,7 +12,6 @@ Social VR avatars should let users freely present their disabilities. Like any o
 – a person with low vision
 
 <ins>Example:</ins>
-
 Avatar system that provides hearing devices for disability representation. [^1]
 
 <img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.1.jpg" alt="G1.1. Example" width="200">
