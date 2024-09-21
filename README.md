@@ -157,7 +157,7 @@ Beyond presenting the disability in itself, users also want to reflect their liv
 <ins>Example:</ins>
 The avatar representing a low vision person (left) shows a different posture than the avatar representing a sighted person (right) in a conversation. 
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.4.png" alt="G2.4. Example" width="340" height="140">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.4.png" alt="G2.4. Example" width="340" height="130">
 
 
 
@@ -259,8 +259,8 @@ When representing disability through assistive technology, the focus should alwa
 *“The wheelchair is not the focus of the image. [But] the avatar is having a good time, and that's the focus of the image.”*
 – a wheelchair user
 
-*“I think that having the option to actually make the chair larger or smaller, depending on how large or small your avatar is, is a good detail. Because sometimes wheelchairs don't fit you. I have encountered 3d models where the wheelchair is so big and the person sitting in it is so small, and it just doesn't look right.”*
-– a wheelchair user
+> “I think that having the option to actually make the chair larger or smaller, depending on how large or small your avatar is, is a good detail. Because sometimes wheelchairs don't fit you. I have encountered 3d models where the wheelchair is so big and the person sitting in it is so small, and it just doesn't look right.”
+> – a wheelchair user
 
 <ins>Example:</ins>
 Users can change the size of assistive technology to match with their avatar size.
