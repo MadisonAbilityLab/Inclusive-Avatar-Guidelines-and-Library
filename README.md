@@ -161,9 +161,62 @@ The avatar representing a low vision person (left) shows a different posture tha
 
 
 
+## 3. Assistive Technology Design
+### 3.1. Offer various types of assistive technology to cover a wide range of disabilities. 
+
+People with disabilities see their assistive technologies as an extension of their body. An avatar which features the specific assistive technology they use is important because it helps represent their identities and offers a feeling of empowerment, inclusion, and immersion. Avatar platforms should therefore offer assistive technologies that are commonly used by people with different types of disabilities, including but not limited to mobility aids (e.g., wheelchair, cane, crutches, prosthetic limbs), hearing devices (e.g., hearing aids, cochlear implants), visual aids (e.g., glasses), and medical devices (e.g., insulin pumps, ventilator tubing). 
+
+*“For people in wheelchairs, our wheelchair is an extension of our body [...] we view it emotionally as an extension of ourselves, and it gives us our independence.”*
+– a wheelchair user
+
+*“I think being able to represent myself in a way that I can choose is empowering to me, and having the option of [adding] a mobility aid on my avatar feels empowering.”* 
+– a walking cane user
+
+*“I think that the wheelchair would be a good addition to it. Being able to move it in the VR world gives me a sense that I'm a part of this VR world too.”*
+– a wheelchair user
+
+<ins>Example:</ins>
+Offer multiple types of mobility aids, such as crutches (left) and prosthetic limb (right). 
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.1.png" alt="G3.1. Example" width="320" height="120">
+
+[^5]: Sketchfab crutches. https://sketchfab.com/3d-models/crutches-d115c17f138d4dea941bbb0de181c6c7
 
 
+### 3.2. Allow detailed customization of assistive technology for personalized disability representation.
 
+With assistive technology being an extension of the user’s body, being able to customize the design of the assistive technology is as important as customizing the avatar’s appearance. A spectrum of options should be available, rather than a simple default choice. For example, wheelchair options should include both manual and powered models. In addition, customizing the aesthetics of the assistive technology, such as adjusting the color or adding personalized decoration (e.g., stickers on wheelchairs), offers a unique way for people with disabilities to express their personalities. 
+
+*“[Now] you either have a wheelchair or no wheelchair, but you can't customize the type, shape, or any various add-ons. Like is it motorized [wheelchair]? Is it like a manual one? So I think having the ability to choose what additional features you'd like to add would be really nice.”* 
+– prosthetic limb user
+
+*“Making some more customizations in the wheelchair. Because again, [it’s] in the same way that you make customizations for eye color, nose shape, [and] all those things.”* 
+– a person with mobility disabilities
+
+<ins>Example:</ins>
+Users can adjust the color of the power wheelchair, like the cushions, wheels, and chassis cover.
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.2.png" alt="G3.2. Example" width="300" height="120">
+
+
+### 3.3. Provide high-quality, realistic simulation of assistive technology to present disability respectfully and avoid misuse.
+
+As an emerging social platform, it’s not uncommon to see some avatars with disability features (e.g., avatars on wheelchairs). However, these avatars are usually designed in a low-quality or stereotypical manner, which leads to the misuse of assistive technology, such as trolling or memeing, perpetuating stigma toward people with disabilities. To represent disability respectfully, assistive technology should be designed and simulated authentically. It should be high in quality and contain sufficient details. For example, the design of a white cane for people with low vision should follow the standardized color selection for such walking aids. 
+
+*“[I’ve seen] really poor representation [of wheelchairs]. They're usually joke avatars or meme avatars that have wheelchairs.”*
+– a person with mental health conditions
+
+*“​​So while walking, the tip of the white cane should move like the pendulum motion, [moving] forth and back in that way.”* 
+– a person who is blind and low vision
+
+<ins>Example:</ins>
+The low-fidelity wheelchair (left) [7] might be misperceived as mocking. Instead, the wheelchair should be designed with high-fidelity and realistic details (right) to represent disability respectfully.
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.3.png" alt="G2.4. Example" width="300" height="120">
+
+[7]: Sketchfab wheelchair model. https://sketchfab.com/3d-models/wheelchair-json-08f4dafe05304cb785d9bcf980a44bc5 
+
+### 3.4. 
 
 
 
