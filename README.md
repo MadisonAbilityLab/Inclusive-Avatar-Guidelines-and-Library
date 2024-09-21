@@ -51,7 +51,7 @@ Providing only avatars with “standard” body compositions prevents people wit
 <ins>Example:</ins>
 Options that can customize the size of each eye.
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.3.gif" alt="G1.3. Example" width="220">
+![](https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.3.gif)
 
 
 
