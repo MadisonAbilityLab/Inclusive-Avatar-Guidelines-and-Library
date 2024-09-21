@@ -176,12 +176,12 @@ People with disabilities see their assistive technologies as an extension of the
 <p align="right">– a wheelchair user</p>
 
 <ins>Example:</ins>
-Offer multiple types of mobility aids, such as crutches (left) and prosthetic limb (right). 
+Offer multiple types of mobility aids, such as crutches [^5] (left) and prosthetic limb [^6] (right). 
 
 <img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.1.png" alt="G3.1. Example" width="320" height="120">
 
 [^5]: Sketchfab crutches. https://sketchfab.com/3d-models/crutches-d115c17f138d4dea941bbb0de181c6c7
-
+[^6]: Sketchfab robotic prosthetic arm.  https://sketchfab.com/3d-models/robotic-prosthetic-arm-43b482c8526f45709b56434924dc4d3c
 
 ### 3.2. Allow detailed customization of assistive technology for personalized disability representation.
 
