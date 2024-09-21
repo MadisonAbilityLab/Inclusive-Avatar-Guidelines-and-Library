@@ -12,7 +12,7 @@ Social VR avatars should let users freely present their disabilities. Like any o
 <p align="right">– a person with low vision</p>
 
 <ins>Example:</ins>
-Avatar system that provides hearing devices for disability representation [^1].
+Avatar system that provides hearing devices for disability representation[^1].
 
 <img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.1.jpg" alt="G1.1. Example" width="220">
 
@@ -62,7 +62,7 @@ People with disabilities often face misconceptions that they are either ‘super
 <p align="right">– a person with cerebral palsy</p>
 
 <ins>Example:</ins>
-VALID validated avatar library [^2] (left) and Ready Player Me avatar [^3] (right) present human avatars that can show intersecting identities of disabilities, race, and gender. 
+VALID validated avatar library (left)[^2] and Ready Player Me avatar (right)[^3] present human avatars that can show intersecting identities of disabilities, race, and gender. 
 
 <img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.4.png" alt="G1.4. Example" width="290" height="150">
 
@@ -82,7 +82,7 @@ People with disabilities often face judgment based on their physical differences
 <p align="right">– a person with mental health conditions</p>
 
 <ins>Example:</ins>
-A robotic avatar representing left forearm amputation [^4].
+A robotic avatar representing left forearm amputation[^4].
 
 <img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.5.png" alt="G1.5. Example" width="220">
 
@@ -176,7 +176,7 @@ People with disabilities see their assistive technologies as an extension of the
 <p align="right">– a wheelchair user</p>
 
 <ins>Example:</ins>
-Offer multiple types of mobility aids, such as crutches [^5] (left) and prosthetic limb [^6] (right). 
+Offer multiple types of mobility aids, such as crutches (left)[^5] and prosthetic limb (right)[^6]. 
 
 <img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.1.png" alt="G3.1. Example" width="320" height="120">
 
@@ -210,7 +210,7 @@ As an emerging social platform, it’s not uncommon to see some avatars with dis
 <p align="right">– a person who is blind and low vision</p>
 
 <ins>Example:</ins>
-The low-fidelity wheelchair (left) [^7] might be misperceived as mocking. Instead, the wheelchair should be designed with high-fidelity and realistic details (right) to represent disability respectfully.
+The low-fidelity wheelchair (left)[^7] might be misperceived as mocking. Instead, the wheelchair should be designed with high-fidelity and realistic details (right) to represent disability respectfully.
 
 <img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.3.png" alt="G3.3. Example" width="320" height="160">
 
@@ -316,7 +316,7 @@ Putting all disability-related features in one category is a form of exclusion. 
 <ins>Example:</ins>
 Walking canes and wheelchairs are included under the accessory category along with items like glasses, hats and bags.
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G5.1.png" alt="G5.1. Example" width="150" height="350">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G5.1.png" alt="G5.1. Example" width="300" height="350">
 
 
 ### 5.2. Use input controls that offer precise adjustments whenever possible. 
@@ -345,6 +345,6 @@ People don’t want to be defined by their disability and show their disability 
 <ins>Example:</ins>
 Users should be able to turn disability-related features on and off with a single click.
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G5.3.gif" alt="G5.2. Example" width="320" height="100">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G5.3.gif" alt="G5.2. Example" width="340" height="120">
 
 
