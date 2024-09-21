@@ -82,7 +82,7 @@ People with disabilities often face judgment based on their physical differences
 <p align="right">– a person with mental health conditions</p>
 
 <ins>Example:</ins>
-A robotic avatar representing left forearm amputation. [^4]
+A robotic avatar representing left forearm amputation [^4].
 
 <img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.5.png" alt="G1.5. Example" width="220">
 
@@ -97,7 +97,7 @@ Representing the realistic movements of people with disabilities on avatars coul
 *“I think it would be cool if you could choose to have [the movement to be reflected]. But I also think that it is a very fine line between inclusion and offensive imitation.”* 
 <p align="right">– a person with mobility disabilities</p>
 
-*“The way I move authentically is kind of jaggy, and I swerve. People asked me if I'm drunk all the time. So you know I'd like to go as quickly as I can in a smooth way [...] even though that's not authentic.* 
+*“The way I move authentically is kind of jaggy, and I swerve. People asked me if I'm drunk all the time. So you know I'd like to go as quickly as I can in a smooth way [...] even though that's not authentic."* 
 <p align="right">– a person with mobility disabilities</p>
 
 *“I have nervous tics that are kind of full body shutters. When I do those in real life, the VR avatar does often follow those, which makes it hard for people to figure out if it's glitching out or something. So finding ways to make those smoother and more reflective of reality, rather than like, 'is this internet thing? or what's happening?'”* 
