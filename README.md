@@ -345,6 +345,6 @@ People don’t want to be defined by their disability and show their disability 
 <ins>Example:</ins>
 Users should be able to turn disability-related features on and off with a single click.
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G5.3.gif" alt="G5.2. Example" width="350" height="130">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G5.3.gif" alt="G5.2. Example" width="370" height="130">
 
 
