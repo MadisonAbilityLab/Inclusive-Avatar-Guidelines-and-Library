@@ -259,8 +259,8 @@ When representing disability through assistive technology, the focus should alwa
 *“The wheelchair is not the focus of the image. [But] the avatar is having a good time, and that's the focus of the image.”*
 – a wheelchair user
 
-> “I think that having the option to actually make the chair larger or smaller, depending on how large or small your avatar is, is a good detail. Because sometimes wheelchairs don't fit you. I have encountered 3d models where the wheelchair is so big and the person sitting in it is so small, and it just doesn't look right.”
-> – a wheelchair user
+*“I think that having the option to actually make the chair larger or smaller, depending on how large or small your avatar is, is a good detail. Because sometimes wheelchairs don't fit you. I have encountered 3d models where the wheelchair is so big and the person sitting in it is so small, and it just doesn't look right.”*
+<p align="right">– a person with ADHD</p>
 
 <ins>Example:</ins>
 Users can change the size of assistive technology to match with their avatar size.
