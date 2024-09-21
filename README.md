@@ -210,13 +210,78 @@ As an emerging social platform, it’s not uncommon to see some avatars with dis
 – a person who is blind and low vision
 
 <ins>Example:</ins>
-The [low-fidelity wheelchair (left)] [7] might be misperceived as mocking. Instead, the wheelchair should be designed with high-fidelity and realistic details (right) to represent disability respectfully.
+The low-fidelity wheelchair (left) [^7] might be misperceived as mocking. Instead, the wheelchair should be designed with high-fidelity and realistic details (right) to represent disability respectfully.
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.3.png" alt="G2.4. Example" width="300" height="100">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.3.png" alt="G3.3. Example" width="300" height="100">
 
-[7]: Sketchfab wheelchair model. https://sketchfab.com/3d-models/wheelchair-json-08f4dafe05304cb785d9bcf980a44bc5 
+[^7]: Sketchfab wheelchair model. https://sketchfab.com/3d-models/wheelchair-json-08f4dafe05304cb785d9bcf980a44bc5 
 
-### 3.4. 
+
+### 3.4. Focus on simulating assistive technologies that empower people with disabilities, rather than those that highlight their challenges.
+
+Using assistive technology is often associated with the stereotype of being dependent. For example, the media often misrepresents people with mobility disabilities by showing them sitting on hospital-style wheelchairs, which leaves an impression that they need to be taken care of by someone else. To combat the stereotypes, the representation of assistive technology should demonstrate how people with disabilities achieve independence through the use of assistive technology. An example of how this could be achieved would be avoiding hospital-style wheelchairs and removing the handles on a manual wheelchair to signify independence. 
+
+*“Most of the representations that we see in fiction, video games and TV, they always use hospital chairs, which is not practical. Basically, no actual disabled person uses a hospital chair in real life [...] on a hospital wheelchair, there are armrests and big push handles, because it's usually built for somebody to push you. However, a manual wheelchair is designed for you to push yourself.”* 
+– a wheelchair user
+
+*“I'm stating that independence [achieved through wheelchair]. I'm solidly myself, and I don't need another person. This is a big deal in our community [...]  we’re not going to want push handles [...] I'm sitting up tall. I'm here.”*
+– a wheelchair user
+
+*“It's important to me that it doesn't look like I'm ready to be pushed by someone else.”* 
+– a wheelchair user
+
+<ins>Example:</ins>
+The manual wheelchair has no handles, demonstrating that it’s designed for users who want to navigate independently instead of being pushed. 
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.4.png" alt="G3.4. Example" width="220">
+
+
+### 3.5. Demonstrate the liveliness of people with disabilities through interaction with assistive technology.
+
+In addition to the visual details, showing how people with disabilities actively control and interact with the assistive technology is another way to demonstrate independence. For example, the avatar should demonstrate circular arm movement when pushing a manual wheelchair, and the wheels should roll. Additionally, the proper posture of the avatar sitting up tall in a wheelchair also reflects the liveliness and capability of the user.
+
+*“I think having the option to roll [wheelchair] instead of walking would be good. I’ve seen some 3D models of wheelchair users in video games, and their arms don't move while they're rolling, which is really weird to me. Because I push myself with my hands.”* 
+– a person with mobility disabilities
+
+*“You would lean forward on the joystick, and the wheels would be moving. Or if you go backwards, you’d be pulling [the joystick] back and it would move backwards.”*
+– a person with mobility disabilities
+
+<ins>Example:</ins>
+Avatar controls the manual wheelchair through pushing.
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.5.gif" alt="G3.5. Example" width="220">
+
+
+### 3.6. Avoid overshadowing the avatar body with the assistive technology.
+
+When representing disability through assistive technology, the focus should always be on the avatar’s body rather than its assistive technology. In practice, the size of assistive technology should not dominate the avatar body but rather fit the body size. Developers should make sure users can easily adjust the size of assistive technology to fit the avatar's body size well.
+
+*“The wheelchair is not the focus of the image. [But] the avatar is having a good time, and that's the focus of the image.”*
+– a wheelchair user
+
+*“I think that having the option to actually make the chair larger or smaller, depending on how large or small your avatar is, is a good detail. Because sometimes wheelchairs don't fit you. I have encountered 3d models where the wheelchair is so big and the person sitting in it is so small, and it just doesn't look right.”*
+– a wheelchair user
+
+<ins>Example:</ins>
+Users can change the size of assistive technology to match with their avatar size.
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.6.gif" alt="G3.6. Example" width="220">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
