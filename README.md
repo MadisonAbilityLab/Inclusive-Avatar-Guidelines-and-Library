@@ -64,9 +64,40 @@ People with disabilities often face misconceptions that they are either ‘super
 <ins>Example:</ins>
 VALID validated avatar library [^2] (left) and Ready Player Me avatar [^3] (right) present human avatars that can show intersecting identities of disabilities, race, and gender. 
 
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.4.png" alt="G1.4. Example" width="220">
+
 [^2]: VALID validated avatar library. https://research.google/blog/valid-a-perceptually-validated-virtual-avatar-library-for-inclusion-and-diversity/ 
 
 [^3]: Ready Player Me avatar. https://readyplayer.me/ 
+
+
+### 1.5. Provide non-human avatar options to free users from social stigma in real life. 
+
+People with disabilities often face judgment based on their physical differences in real life. Avatars with non-human forms, such as robots and animals, can potentially lower others’ expectations of “typical” appearance and behaviors, freeing people with disabilities from societal judgements and stigma often associated with disabilities. 
+
+*"I think [non-human avatars] hide more of my real disabilities, like being the opposite of showing off my disabilities."* 
+– a person with cerebral palsy
+
+*"It feels like people's expectations of how neurotypical I'm gonna seem are lowered if I'm a robot or just a non-human avatar."*
+– a person with mental health conditions
+
+<ins>Example:</ins>
+A robotic avatar representing left forearm amputation.
+
+[^4]: Behance. https://www.behance.net/gallery/81759323/Low-Poly-Destructible-Robot
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
