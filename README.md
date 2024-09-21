@@ -82,14 +82,82 @@ People with disabilities often face judgment based on their physical differences
 – a person with mental health conditions
 
 <ins>Example:</ins>
-A robotic avatar representing left forearm amputation.
+A robotic avatar representing left forearm amputation. [^4]
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.5.png" alt="G1.5. Example" width="220">
 
 [^4]: Behance. https://www.behance.net/gallery/81759323/Low-Poly-Destructible-Robot
 
 
+## 2. Avatar Body Dynamics: Facial Expression, Posture, and Body Motion
+### 2.1. Allow the simulation of behavioral characteristics related to disability only based on users’ preference.
+
+Representing the realistic movements of people with disabilities on avatars could make them feel more connected with their avatars and immersed in the VR experience. For instance, a person with Tourette’s Syndrome may have tics on their face and prefer showing them authentically via their avatar design. However, the realistic simulation of disability-related behaviors on avatars may also reinforce the stereotype people with disabilities experience in real life. For example, for people who experience unconventional or involuntary movements (e.g., stumbling, nervous tics), directly simulating these movements can be disrespectful and should be avoided. Developers should be careful not to create simulations that may cause misunderstanding or reinforce stereotypes, and should only do so if users prefer it. 
+
+*“I think it would be cool if you could choose to have [the movement to be reflected]. But I also think that it is a very fine line between inclusion and offensive imitation.”* 
+– a person with mobility disabilities
+
+*“The way I move authentically is kind of jaggy, and I swerve. People asked me if I'm drunk all the time. So you know I'd like to go as quickly as I can in a smooth way [...] even though that's not authentic.* 
+– a person with mobility disabilities
+
+*“I have nervous tics that are kind of full body shutters. When I do those in real life, the VR avatar does often follow those, which makes it hard for people to figure out if it's glitching out or something. So finding ways to make those smoother and more reflective of reality, rather than like, 'is this internet thing? or what's happening?'”* 
+– a person with mental health conditions
+
+<ins>Example:</ins>
+Avatar can show motor tics (left) or not (right) based on the user's preference.
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.1.png" alt="G2.1. Example" width="220">
 
 
+### 2.2. Enable expressive facial animations that deliver a spectrum of emotions.
 
+For people with invisible disabilities, enabling expressive facial expressions is critical because their conditions (e.g., depression, bipolar disorder, and anxiety) often surface through their emotions. It’s especially important to include expressions representing both positive and negative emotions (e.g., sadness, anxiety, or even crying) to portray the user’s mental status visually and demonstrate what they are really feeling.  
+
+*“Depression is part of my life, and I think avatars need to spend a little more time not looking so happy all the time, which is not an option there. [The avatars] are always smiling. I think that needs to be a little bit more [variations].”*
+– A person with severe depression
+
+*“When representing depression, the facial expression is more sad or in thought. And then when having ADHD moments, [the avatar] being more excited or manic.”*
+– A person with depression and ADHD
+
+<ins>Example:</ins>
+Avatar shows diverse emotions, including anxiety (left), sadness (middle), and happiness (right).
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.2.png" alt="G2.2. Example" width="220">
+
+
+### 2.3. Prioritize equitable capability and performance of avatar over the authentic behaviors of people with disabilities.
+
+While people with disabilities should have the option to reflect their unique movements through their avatars if they so choose (e.g., limp while walking), these movement characteristics should not impact the capabilities or performance of the avatar, thus creating a fair user experience for all. For example, the movement speed of an avatar in a wheelchair should be the same as the walking speed of other avatars. 
+
+*“I walk with a slight limp, [but] I don't think I need the actual movement [on avatars] to reflect how [fast] I walk. [Because] when I use games, I see the movement aspect more of a practicality than part of the game [...] I think having a limp would be cool, but I wouldn't want to be slower than [other avatars]. I wouldn't want to have a maximum speed, because I chose to have a limp earlier in the avatar making process."* 
+– a person with mobility disabilities 
+
+*“Being able to just keep up with peers’ [avatars], pace-wise, would be the most important thing.”* 
+– a person with mobility disabilities
+
+<ins>Example:</ins>
+The avatar with the wheelchair moves at the same speed as the avatar without the wheelchair.
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.3.gif" alt="G2.3. Example" width="220">
+
+
+### 2.4. Leverage avatar posture and motion to demonstrate the lived experiences of people with disabilities. 
+
+Beyond presenting the disability in itself, users also want to reflect their lived experience with disabilities via avatars through avatar posture or motion for awareness purposes. For example, a low vision person may adopt a unique head position, turning their head slightly to one side to see with their better eye, or a blind person may bend their body forwards in an attempt to better capture sound; representing these behaviors on avatars helps other users acknowledge that these mannerisms are not a sign of disinterest in social interactions but rather a means to better engage in conversations.
+
+*“[My] vision is directed at one angle. So my head is turned lightly, because I'm not looking at people directly all the time.”* 
+– a low vision person
+
+*“The visually impaired people are not standing strictly. Slightly bending down towards the front is a common feature of the visually impaired people if they have visual disability by birth. Because instead of looking at the person who is speaking, they take their ears nearby to the place where the sound is coming from, instead of [looking at the speaker's] face. This gives some wrong impressions to the people that the visually impaired people have not given attention to the speakers. That is not the real story.”*
+– a blind person
+
+*“Typically you're in a VR situation, and you're facing somebody and focused on looking at one another. [But] a lot of times when I look at somebody, my eyes are not looking at their face all the time. So I think having the ability to look at other places while I'm facing somebody would be important to me. Because that helps me represent the way that I interact with people.”* 
+– a person with ADHD
+
+<ins>Example:</ins>
+The avatar representing a low vision person (left) shows a different posture than the avatar representing a sighted person (right) in a conversation. 
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.4.png" alt="G2.4. Example" width="220">
 
 
 
