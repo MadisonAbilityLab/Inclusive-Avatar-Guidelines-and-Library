@@ -51,18 +51,22 @@ Providing only avatars with “standard” body compositions prevents people wit
 <ins>Example:</ins>
 Options that can customize the size of each eye.
 
-![G1 3](https://github.com/user-attachments/assets/a05b421b-b888-4327-8354-0fe58ed25928)
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.3.gif" alt="G1.3. Example" width="220">
 
 
+### 1.4. Prioritize human avatars to emphasize the “humanity” rather than the “disability” aspect in disability representation. 
 
+People with disabilities often face misconceptions that they are either ‘superheroes’ or ‘tragic’, which reduce individuals to their disability label rather than seeing them as whole persons. To avoid such misconceptions, avatars should have human-like models to represent disability as an integral part of personal identities, which often intersect with other identities such as race and gender. People with disabilities also reported feeling more connected to humanoid avatars when representing personal identities in social VR.
 
+*“Humanoid avatars show me as a whole person. I identify as a black woman with a disability, and that's really important when discussing a personal identity, because when describing somebody, you wouldn't just say, ‘Oh, they have a disability,’ instead you would say, ‘Oh, they're non-binary or female, and they're African American or Caucasian, and they have a disability.’ They all go together.”* 
+– a person with cerebral palsy
 
+<ins>Example:</ins>
+VALID validated avatar library [^2] (left) and Ready Player Me avatar [^3] (right) present human avatars that can show intersecting identities of disabilities, race, and gender. 
 
+[^2]: VALID validated avatar library. https://research.google/blog/valid-a-perceptually-validated-virtual-avatar-library-for-inclusion-and-diversity/ 
 
-
-
-
-
+[^3]: Ready Player Me avatar. https://readyplayer.me/ 
 
 
 
