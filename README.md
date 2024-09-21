@@ -64,7 +64,7 @@ People with disabilities often face misconceptions that they are either ‘super
 <ins>Example:</ins>
 VALID validated avatar library [^2] (left) and Ready Player Me avatar [^3] (right) present human avatars that can show intersecting identities of disabilities, race, and gender. 
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.4.png" alt="G1.4. Example" width="220">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.4.png" alt="G1.4. Example" width="250">
 
 [^2]: VALID validated avatar library. https://research.google/blog/valid-a-perceptually-validated-virtual-avatar-library-for-inclusion-and-diversity/ 
 
@@ -106,7 +106,7 @@ Representing the realistic movements of people with disabilities on avatars coul
 <ins>Example:</ins>
 Avatar can show motor tics (left) or not (right) based on the user's preference.
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.1.png" alt="G2.1. Example" width="220">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.1.png" alt="G2.1. Example" width="250">
 
 
 ### 2.2. Enable expressive facial animations that deliver a spectrum of emotions.
@@ -122,7 +122,7 @@ For people with invisible disabilities, enabling expressive facial expressions i
 <ins>Example:</ins>
 Avatar shows diverse emotions, including anxiety (left), sadness (middle), and happiness (right).
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.2.png" alt="G2.2. Example" width="220">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.2.png" alt="G2.2. Example" width="250">
 
 
 ### 2.3. Prioritize equitable capability and performance of avatar over the authentic behaviors of people with disabilities.
@@ -138,7 +138,7 @@ While people with disabilities should have the option to reflect their unique mo
 <ins>Example:</ins>
 The avatar with the wheelchair moves at the same speed as the avatar without the wheelchair.
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.3.gif" alt="G2.3. Example" width="220">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.3.gif" alt="G2.3. Example" width="250">
 
 
 ### 2.4. Leverage avatar posture and motion to demonstrate the lived experiences of people with disabilities. 
@@ -157,7 +157,7 @@ Beyond presenting the disability in itself, users also want to reflect their liv
 <ins>Example:</ins>
 The avatar representing a low vision person (left) shows a different posture than the avatar representing a sighted person (right) in a conversation. 
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.4.png" alt="G2.4. Example" width="220">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.4.png" alt="G2.4. Example" width="250">
 
 
 
