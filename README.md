@@ -12,7 +12,7 @@ Social VR avatars should let users freely present their disabilities. Like any o
 <p align="right">– a person with low vision</p>
 
 <ins>Example:</ins>
-Avatar system that provides hearing devices for disability representation[^1].
+Avatar system that provides hearing devices for disability representation [^1].
 
 <img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.1.jpg" alt="G1.1. Example" width="220">
 
@@ -269,23 +269,82 @@ Users can change the size of assistive technology to match with their avatar siz
 
 
 
+## 4. Peripherals around Avatars
+### 4.1. Provide suitable icons, logos, and slogans that represent disability communities. 
+
+Including representative symbols of disability communities helps people to express their disabilities in a symbolic way. These symbols can be featured on avatar’s clothing and accessories, or elsewhere. Examples of symbols include the rainbow and infinity logo that are widely recognized within the autism community, and sunflowers to symbolize hidden disabilities. 
+
+*“Now we have like characters who can wear T-shirts with the LGBTQ plus pride flag on it, or they can wear T-shirts that have ‘Black Lives Matters.’ So having equivalent things for disability would be awesome.”*
+<p align="right">– a person with mobility disabilities</p>
+
+*“It’s about hidden disabilities, and you can get sunflower lanyards, which is a way of saying ‘I'm disabled, but you can't tell.’ So if the character looks like they're walking and they've got sparkly, flowy sunflowers behind them, [that] would be cool.”*
+<p align="right">– a person with mobility disabilities</p>
+
+<ins>Example:</ins>
+An avatar wearing a T-shirt with a rainbow and infinity symbol to represent the autism spectrum disorder community. 
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G4.1.png" alt="G4.1. Example" width="220">
 
 
+### 4.2. Leverage spaces beyond the avatar body to present disabilities.
+
+The space surrounding an avatar offers opportunities for people with disabilities, especially those with invisible ones, to creatively represent themselves. For example, people with depression want to add visual indicators in the avatar's background to show their current conditions (i.e., a cloudy and rainy background to symbolize a user feeling depressed at the moment). Another example would involve using icons, such as a battery symbol above the avatar's head, which would change levels depending on the user’s mood. 
+
+*“I’d imagine there were things around me, like a dark gray cloud or it's raining in the background and being right above you. And everywhere you go, it's right there.”* 
+<p align="right">– a person with ADHD and depression</p>
+
+*“My energy levels can fluctuate just a lot. Someday, I may have a little bit of energy, and the next day I may have a lot of energy, and that could actually change within a matter of hours. So the idea that I have is a battery symbol that I could adjust the battery level shown on that to show you how much energy that I have to spend. It's a signal to my friends that ‘hey, my battery's low, I may sound really tired right? I'm okay, I just have low energy.’ [Other times] I could turn my battery all the way up and be like, ‘Hey, let's see, we can do something a little bit more active​​.’”*
+<p align="right">– a person with neurodivergence and low vision</p>
+
+<ins>Example:</ins>
+An avatar with a floating bubble overhead, showing a level of social energy.
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G4.2.png" alt="G4.2. Example" width="320" height="150">
 
 
+## 5. Design of Avatar Customization and Control Interface
+### 5.1. Integrate disability features across the avatar customization process, rather than gathering them in a specialized category.
+
+Putting all disability-related features in one category is a form of exclusion. It makes people with disabilities feel they are using features intentionally designed as “for disabilities”, which sets them apart from other users. Instead, disability-related features should be naturally embedded in all aspects of the avatar customization interface. For example, including assistive technologies like walking canes alongside other accessories like hats or glasses rather than a special ‘disability representation’ section, could mitigate this problem.  
+
+*“Have those [disability representation] options in a variety of places, not like to create a disabled avatar, [you need to] go 13 levels down to the left, and [there’s a] submenu for that. Just make it integral to what you're designing, instead of making it like, ‘you gotta go on the short bus to get to the avatars for people with disabilities. Make it a part of everything else. Don't isolate it.”*
+<p align="right">– a person who is blind</p>
+
+*“You can include a cane with the accessories tab instead of having a disabled tab over there…that can be kind of ostracizing. Just treating them as neutral instead of either a burden to have to design or something you get to feel really special for designing.”* 
+<p align="right">– a person with mental health conditions</p>
+
+<ins>Example:</ins>
+Walking canes and wheelchairs are included under the accessory category along with items like glasses, hats and bags.
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G5.1.png" alt="G5.1. Example" width="150" height="320">
 
 
+### 5.2. Use input controls that offer precise adjustments whenever possible. 
+
+A common problem with current avatar customization interfaces is not being able to find customization options which accurately represent people’s disabilities. An example of addressing this issue would be to give users the ability to modify the exact length of a missing or impaired limb. Developers and designers should use input controls that offer a continuous range of options for people to flexibly represent themselves. For example, sliders and knobs are continuous input controls that enable fine-grained customizations. 
+
+*“[I prefer] the sliding scale … [so] you can really change it on a very particular level.”* 
+<p align="right">– a person with autism</p>
+
+*“It's better to have a spectrum of choices, or even a slider like for people to change your nuanced level.”* 
+<p align="right">– a person with mobility disabilities</p>
+
+<ins>Example:</ins>
+Offer a slider to change the length of limbs.
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G5.2.gif" alt="G5.2. Example" width="220">
 
 
+### 5.3. Offer an easy control to turn on and off disability features.
 
+People don’t want to be defined by their disability and show their disability all the time. The disclosure of disability often depends on social contexts. For example, people might not want to disclose their disabilities when they are surrounded by strangers or unfriendly users. For this reason, social VR platforms should allow users to easily toggle on and off the disability-related features as needed. For example, implementing a shortcut that can instantly remove disability features from an avatar would address this issue.
 
+*“If I'm in a very comfortable setting, and [people are] accepting, I'm going to come in there [as an avatar with disability-related features]. [At the same time,] it's important to have that [avatar with disability-related features] to be changed, where I can still have how my body shows up in the world but not necessarily with the wheelchair. That’s important, because although I have a disability and I'm comfortable with it, it is not the most important thing to me. So sometimes I might not want to lead with that, especially when you have physical disabilities that people can see, where you encounter a lot in the world where you have no control over how people see you right away.”* 
+<p align="right">– a person with mobility disability</p>
 
+<ins>Example:</ins>
+Users should be able to turn disability-related features on and off with a single click.
 
-
-
-
-
-
-
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G5.3.gif" alt="G5.2. Example" width="320" height="100">
 
 
