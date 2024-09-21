@@ -64,7 +64,7 @@ People with disabilities often face misconceptions that they are either ‘super
 <ins>Example:</ins>
 VALID validated avatar library [^2] (left) and Ready Player Me avatar [^3] (right) present human avatars that can show intersecting identities of disabilities, race, and gender. 
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.4.png" alt="G1.4. Example" width="250">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.4.png" alt="G1.4. Example" width="250" height="190">
 
 [^2]: VALID validated avatar library. https://research.google/blog/valid-a-perceptually-validated-virtual-avatar-library-for-inclusion-and-diversity/ 
 
