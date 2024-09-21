@@ -35,8 +35,23 @@ A full-body avatar with a prosthetic left foreleg.
 <img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.2.png" alt="G1.2. Example" width="220">
 
 
+### 1.3. Enable customization of each body part instead of non-adjustable predefined sets.
 
+Providing only avatars with “standard” body compositions prevents people with bodily differences from representing themselves accurately. Avatar platforms should allow the customization of each body part of an avatar. For example, avatar platforms should offer options to customize the presence, length, and strength of each limb; and users can select their preferred colors for various avatar components (e.g., eye color, hair color, or skin color). Asymmetrical design options of body parts (e.g., eyes, ears) should also be available. For example, allowing users to select the size and detailed look of each eyeball to reflect disabilities such as strabismus. 
 
+*“It would be important to be able to customize each individual portion of the body. Right now, if you select the bigger one [for your] shoulders, it makes everything bigger. But that's not the case. [It would be better] if you could do, [for example,] the left arm, the right arm, even elbows, your stomach, chest, and neck, like all the different things.”*
+– a person with mobility disabilities and mental health conditions
+
+*“I have a limb difference, [and I am] a left forearm amputation. So I would really like to see characters where maybe they don't have two long arms, but they have one long standard arm and one shorter [arm], like to the elbow. Or even if they do have two long arms, but one of them doesn't have a hand, or just one round-off around the wrist [...] instead of extending completely with a five-fingered hand.”*
+– an amputee
+
+*“I have one eye that's in a completely different shape than the other. So I think being able to customize your eyes to two different shapes should reflect what is actually going on on your face. Now you can only pick one set.”*
+– a person with visual and mobility impairments
+
+<ins>Example:</ins>
+Options that can customize the size of each eye.
+
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G1.3.gif" alt="G1.3. Example" width="220">
 
 
 
