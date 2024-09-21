@@ -122,7 +122,7 @@ For people with invisible disabilities, enabling expressive facial expressions i
 <ins>Example:</ins>
 Avatar shows diverse emotions, including anxiety (left), sadness (middle), and happiness (right).
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.2.png" alt="G2.2. Example" width="290" height="150">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.2.png" alt="G2.2. Example" width="320" height="150">
 
 
 ### 2.3. Prioritize equitable capability and performance of avatar over the authentic behaviors of people with disabilities.
@@ -157,7 +157,7 @@ Beyond presenting the disability in itself, users also want to reflect their liv
 <ins>Example:</ins>
 The avatar representing a low vision person (left) shows a different posture than the avatar representing a sighted person (right) in a conversation. 
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.4.png" alt="G2.4. Example" width="290" height="150">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G2.4.png" alt="G2.4. Example" width="320" height="150">
 
 
 
