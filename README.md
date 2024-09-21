@@ -316,7 +316,7 @@ Putting all disability-related features in one category is a form of exclusion. 
 <ins>Example:</ins>
 Walking canes and wheelchairs are included under the accessory category along with items like glasses, hats and bags.
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G5.1.png" alt="G5.1. Example" width="150" height="320">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G5.1.png" alt="G5.1. Example" width="150" height="350">
 
 
 ### 5.2. Use input controls that offer precise adjustments whenever possible. 
