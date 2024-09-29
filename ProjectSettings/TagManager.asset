@@ -8,6 +8,8 @@ TagManager:
   - ForearmATClickable
   - CrutchATClickable
   - HearingAidATClickable
+  - ManualChairClickable
+  - PowerChairClickable
   layers:
   - Default
   - TransparentFX
