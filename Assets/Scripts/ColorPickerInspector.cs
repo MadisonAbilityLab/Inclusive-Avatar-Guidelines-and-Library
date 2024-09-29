@@ -27,8 +27,11 @@ public class ColorPickerInspector : MonoBehaviour
                 Renderer renderer = obj.GetComponent<Renderer>();
                 if (renderer != null)
                 {
-                    // Change the color of the objects with the selected tag
-                    renderer.material.SetColor("_Color", newColor);
+                    // Use MaterialPropertyBlock to change the color without modifying the material asset
+                    MaterialPropertyBlock block = new MaterialPropertyBlock();
+                    renderer.GetPropertyBlock(block);
+                    block.SetColor("_Color", newColor);
+                    renderer.SetPropertyBlock(block);
                 }
             }
         }
