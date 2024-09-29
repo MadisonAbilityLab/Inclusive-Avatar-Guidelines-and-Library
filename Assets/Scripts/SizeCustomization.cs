@@ -1,10 +1,11 @@
 using UnityEngine;
 
 [ExecuteInEditMode]
-public class WheelchairSize : MonoBehaviour
+public class SizeCustomization : MonoBehaviour
 {
     [Header("Size Parameters")]
-    [Range(0.8f, 1.2f)]
+    [Tooltip("Adjusts the overall size of the object between 50% and 150% of its original size.")]
+    [Range(0.5f, 1.5f)]
     public float sizeMultiplier = 1.0f;
 
     [SerializeField]

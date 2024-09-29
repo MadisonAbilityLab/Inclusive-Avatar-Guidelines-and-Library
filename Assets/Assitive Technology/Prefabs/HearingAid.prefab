@@ -537,6 +537,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5471856780109324968}
   - component: {fileID: 4452863274262760024}
+  - component: {fileID: 2094521277697180832}
   m_Layer: 0
   m_Name: HearingAid
   m_TagString: Untagged
@@ -554,7 +555,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
   m_LocalPosition: {x: 2.888, y: 0.918, z: 0.479}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.903, y: 0.903, z: 0.903}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 898667664325573863}
@@ -575,6 +576,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetTag: HearingAidATClickable
   newColor: {r: 0.6132076, g: 0, b: 0, a: 0}
+--- !u!114 &2094521277697180832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6559440448109885002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda2b1f32a51a5941a9c805864676b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sizeMultiplier: 0.903
+  originalScale: {x: 1, y: 1, z: 1}
 --- !u!1 &7510861937731932285
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,8 +9,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.277
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.277
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.277
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -14.756283
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -18,7 +30,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.42
+      value: 15.199263
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -48,9 +60,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
+      propertyPath: m_TagString
+      value: PowerChairClickable
+      objectReference: {fileID: 0}
+    - target: {fileID: -516098083770646512, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
+      propertyPath: m_TagString
+      value: PowerChairClickable
+      objectReference: {fileID: 0}
+    - target: {fileID: 281855664364225751, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
+      propertyPath: m_TagString
+      value: PowerChairClickable
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
       propertyPath: m_Name
-      value: PowerChairExport1 Variant
+      value: PowerChair
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -60,6 +84,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4001988274517565189}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3594665568296896415}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7666213411458541934}
   m_SourcePrefab: {fileID: 100100000, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
 --- !u!1 &1365081958491333399 stripped
 GameObject:
@@ -87,3 +117,31 @@ MonoBehaviour:
   backSpeed: 1
   scale: 1
   speed: 1
+--- !u!114 &3594665568296896415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365081958491333399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b07b15e69a34854ba8380e81aecd49a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: PowerChairClickable
+  newColor: {r: 0.018244924, g: 0.03244047, b: 0.7735849, a: 0}
+--- !u!114 &7666213411458541934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1365081958491333399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda2b1f32a51a5941a9c805864676b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sizeMultiplier: 1.277
+  originalScale: {x: 1, y: 1, z: 1}
