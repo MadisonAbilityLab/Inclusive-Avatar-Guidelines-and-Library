@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &6738570015565391831
+--- !u!1001 &305546259660363625
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -8,18 +8,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: -8704626708619605809, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8704626708619605809, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8704626708619605809, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -60,17 +48,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: -1908446200816293362, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
       propertyPath: m_Name
       value: Glasses Variant
-      objectReference: {fileID: 0}
-    - target: {fileID: 8815057874582027812, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -78,44 +58,29 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2850678515180707086}
+      addedObject: {fileID: 5775346700765342930}
   m_SourcePrefab: {fileID: 100100000, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
---- !u!1 &672525264836890046 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -3111565609762313623, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
-  m_PrefabInstance: {fileID: 6738570015565391831}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &2748325439134460379 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8908180359734677004, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
-  m_PrefabInstance: {fileID: 6738570015565391831}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &4262042704211558570 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -1827928219432720515, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
-  m_PrefabInstance: {fileID: 6738570015565391831}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5856188508918684294 stripped
+--- !u!1 &647653467326540344 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
-  m_PrefabInstance: {fileID: 6738570015565391831}
+  m_PrefabInstance: {fileID: 305546259660363625}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2850678515180707086
+--- !u!114 &5775346700765342930
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5856188508918684294}
+  m_GameObject: {fileID: 647653467326540344}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a5f34434395a54454905dbf96f809839, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   showMore: 0
-  frame: {fileID: 672525264836890046}
-  lens: {fileID: 4262042704211558570}
-  frameArmBone: {fileID: 2748325439134460379}
+  frame: {fileID: 0}
+  lens: {fileID: 0}
+  frameArmBone: {fileID: 0}
   frameColor: {r: 0, g: 0, b: 0, a: 0}
-  lensColor: {r: 0.7563505, g: 0.7563505, b: 0.7563505, a: 0.015686275}
+  lensColor: {r: 0, g: 0, b: 0, a: 0}
   armLength: 1
