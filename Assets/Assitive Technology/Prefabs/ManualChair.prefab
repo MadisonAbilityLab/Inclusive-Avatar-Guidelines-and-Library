@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 85af5b673b5695019be8acddea940565, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.4560888
+      value: 3.5499935
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 85af5b673b5695019be8acddea940565, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.4458907
+      value: 3.5199862
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 85af5b673b5695019be8acddea940565, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.269375
+      value: -15.039982
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 85af5b673b5695019be8acddea940565, type: 3}
       propertyPath: m_LocalRotation.w
@@ -60,13 +60,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7843363246231199614, guid: 85af5b673b5695019be8acddea940565, type: 3}
+      propertyPath: m_TagString
+      value: ColorPicker
+      objectReference: {fileID: 0}
     - target: {fileID: -4076023761643209222, guid: 85af5b673b5695019be8acddea940565, type: 3}
       propertyPath: m_TagString
-      value: ManualChairClickable
+      value: ColorPicker
       objectReference: {fileID: 0}
     - target: {fileID: -1691790110793292594, guid: 85af5b673b5695019be8acddea940565, type: 3}
       propertyPath: m_TagString
-      value: ManualChairClickable
+      value: ColorPicker
       objectReference: {fileID: 0}
     - target: {fileID: 364878888577607476, guid: 85af5b673b5695019be8acddea940565, type: 3}
       propertyPath: m_ReceiveShadows
@@ -78,11 +82,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4638026640066419092, guid: 85af5b673b5695019be8acddea940565, type: 3}
       propertyPath: m_TagString
-      value: ManualChairClickable
+      value: ColorPicker
       objectReference: {fileID: 0}
     - target: {fileID: 4876661514329645603, guid: 85af5b673b5695019be8acddea940565, type: 3}
       propertyPath: m_TagString
-      value: ManualChairClickable
+      value: ColorPicker
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -138,8 +142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b07b15e69a34854ba8380e81aecd49a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTag: ManualChairClickable
-  newColor: {r: 0.086507656, g: 0.20268698, b: 0.6792453, a: 0}
+  targetTag: ColorPicker
+  newColor: {r: 0.2738222, g: 0.67058825, b: 0.17254901, a: 0}
 --- !u!114 &989740252702060399
 MonoBehaviour:
   m_ObjectHideFlags: 0

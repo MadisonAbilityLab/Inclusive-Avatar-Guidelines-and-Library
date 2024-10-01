@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 6135763566389345105}
   m_Layer: 0
   m_Name: Cylinder.015
-  m_TagString: ForearmATClickable
+  m_TagString: ColorPicker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 2426520391470011231}
   m_Layer: 0
   m_Name: Cylinder.018
-  m_TagString: ForearmATClickable
+  m_TagString: ColorPicker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -510,7 +510,7 @@ GameObject:
   - component: {fileID: 3156971881926956886}
   m_Layer: 0
   m_Name: Cylinder.008
-  m_TagString: ForearmATClickable
+  m_TagString: ColorPicker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -648,8 +648,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b07b15e69a34854ba8380e81aecd49a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTag: ForearmATClickable
-  newColor: {r: 0.067544, g: 0.0754717, b: 0.066571735, a: 1}
+  targetTag: ColorPicker
+  newColor: {r: 0.24350302, g: 0.30977, b: 0.9056604, a: 1}
 --- !u!114 &3050376875475122775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -679,7 +679,7 @@ GameObject:
   - component: {fileID: 660315202567968195}
   m_Layer: 0
   m_Name: Cylinder.011
-  m_TagString: ForearmATClickable
+  m_TagString: ColorPicker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -245,7 +245,7 @@ GameObject:
   - component: {fileID: 6836882857451994945}
   m_Layer: 0
   m_Name: Cylinder.007
-  m_TagString: WalkingATClickable
+  m_TagString: ColorPicker
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -445,8 +445,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b07b15e69a34854ba8380e81aecd49a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTag: WalkingATClickable
-  newColor: {r: 0.2924528, g: 0.07035421, b: 0.07035421, a: 0}
+  targetTag: ColorPicker
+  newColor: {r: 0.143055, g: 0.6603774, b: 0.052954797, a: 0}
 --- !u!114 &638192271578555468
 MonoBehaviour:
   m_ObjectHideFlags: 0

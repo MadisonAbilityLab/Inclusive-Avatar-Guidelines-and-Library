@@ -4,12 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - WalkingATClickable
-  - ForearmATClickable
-  - CrutchATClickable
-  - HearingAidATClickable
-  - ManualChairClickable
-  - PowerChairClickable
+  - ColorPicker
   layers:
   - Default
   - TransparentFX
