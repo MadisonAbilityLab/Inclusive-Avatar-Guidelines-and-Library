@@ -149,6 +149,37 @@ Transform:
   - {fileID: 2144092795227856213}
   m_Father: {fileID: 6346480918070861256}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5132241471897278850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2225203348347875471}
+  m_Layer: 0
+  m_Name: GripPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2225203348347875471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5132241471897278850}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7171521, y: 0.00020422525, z: 0.00027336358, w: 0.69691664}
+  m_LocalPosition: {x: -0.000010755583, y: 0.000027674114, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4254710954857014381}
+  m_LocalEulerAnglesHint: {x: 91.640015, y: -1.3549805, z: -1.348999}
 --- !u!1 &5780912429281214331
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,7 +293,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 2.8444617, z: 0}
   m_LocalScale: {x: 7.150633, y: 7.150633, z: 23.46585}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2225203348347875471}
   m_Father: {fileID: 6319400169877231425}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &5447845070242254239
@@ -409,6 +441,7 @@ GameObject:
   - component: {fileID: 6346480918070861256}
   - component: {fileID: 1331138293276501066}
   - component: {fileID: 638192271578555468}
+  - component: {fileID: 6606560106028193915}
   m_Layer: 0
   m_Name: WalkingCane
   m_TagString: Untagged
@@ -461,3 +494,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sizeMultiplier: 1.023
   originalScale: {x: 1, y: 1, z: 1}
+--- !u!114 &6606560106028193915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8414708295947565119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b183ae9b039f03c44bb059b72ea2c236, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: 1
+  gripPosition: {fileID: 0}
