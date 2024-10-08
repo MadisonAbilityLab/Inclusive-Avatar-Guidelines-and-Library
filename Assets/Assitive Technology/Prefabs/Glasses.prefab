@@ -22,7 +22,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.1900082
+      value: -14.19476
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
       propertyPath: m_LocalPosition.y
@@ -30,7 +30,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.0713716
+      value: 0.8304672
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
       propertyPath: m_LocalRotation.w
@@ -62,11 +62,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -3111565609762313623, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
       propertyPath: m_TagString
-      value: ColorPicker
+      value: GlassesColor
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 70d3c37a283656c3e88a6015d929be77, type: 3}
       propertyPath: m_Name
-      value: Glasses Variant
+      value: Glasses
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -110,5 +110,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b07b15e69a34854ba8380e81aecd49a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTag: ColorPicker
-  newColor: {r: 0.24519402, g: 0.24976537, b: 0.5471698, a: 0}
+  targetTag: GlassesColor
+  newColor: {r: 0.16914289, g: 0.6226415, b: 0.1321645, a: 0}

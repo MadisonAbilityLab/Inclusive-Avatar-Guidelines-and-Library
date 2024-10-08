@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b07b15e69a34854ba8380e81aecd49a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTag: ColorPicker
-  newColor: {r: 0.18930645, g: 0.8396226, b: 0.10693307, a: 0}
+  targetTag: CrutchColor
+  newColor: {r: 0.006007465, g: 0.4245283, b: 0.024062127, a: 0}
 --- !u!114 &3211793066989180299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 6564414074625796205}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: ColorPicker
+  m_TagString: CrutchColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -690,7 +690,7 @@ GameObject:
   - component: {fileID: 5417969854396712563}
   m_Layer: 0
   m_Name: Cylinder.010
-  m_TagString: ColorPicker
+  m_TagString: CrutchColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -773,7 +773,7 @@ GameObject:
   - component: {fileID: 8987607391518810694}
   m_Layer: 0
   m_Name: Cylinder.017
-  m_TagString: ColorPicker
+  m_TagString: CrutchColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

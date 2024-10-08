@@ -5,7 +5,7 @@ public class SizeCustomization : MonoBehaviour
 {
     [Header("Size Parameters")]
     [Tooltip("Adjusts the overall size of the object between 50% and 150% of its original size.")]
-    [Range(0.5f, 1.5f)]
+    [Range(0.1f, 1.5f)]
     public float sizeMultiplier = 1.0f;
 
     [SerializeField]

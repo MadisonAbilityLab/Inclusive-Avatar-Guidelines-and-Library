@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.8734894
+      value: -31.485157
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.6268609
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18.507656
+      value: 0.52613163
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -62,15 +62,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8391222552659086748, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
       propertyPath: m_TagString
-      value: ColorPicker
+      value: PowerChairColor
       objectReference: {fileID: 0}
     - target: {fileID: -516098083770646512, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
       propertyPath: m_TagString
-      value: ColorPicker
+      value: PowerChairColor
       objectReference: {fileID: 0}
     - target: {fileID: 281855664364225751, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
       propertyPath: m_TagString
-      value: ColorPicker
+      value: PowerChairColor
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ec99291e9ec51a676b1230c96774ea4c, type: 3}
       propertyPath: m_Name
@@ -129,8 +129,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b07b15e69a34854ba8380e81aecd49a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTag: ColorPicker
-  newColor: {r: 0.77254903, g: 0.019607859, b: 0.7400679, a: 0}
+  targetTag: PowerChairColor
+  newColor: {r: 0.07440368, g: 0.788397, b: 0.8301887, a: 0}
 --- !u!114 &7666213411458541934
 MonoBehaviour:
   m_ObjectHideFlags: 0

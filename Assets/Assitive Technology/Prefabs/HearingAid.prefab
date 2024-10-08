@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4240191292802294036}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: ColorPicker
+  m_TagString: HearingAidColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -259,7 +259,7 @@ GameObject:
   - component: {fileID: 2039644986908121127}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: ColorPicker
+  m_TagString: HearingAidColor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -574,8 +574,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b07b15e69a34854ba8380e81aecd49a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTag: ColorPicker
-  newColor: {r: 0.6132076, g: 0, b: 0, a: 0}
+  targetTag: HearingAidColor
+  newColor: {r: 0.6792453, g: 0.53710365, b: 0.086507656, a: 0}
 --- !u!114 &2094521277697180832
 MonoBehaviour:
   m_ObjectHideFlags: 0
