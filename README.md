@@ -1,5 +1,5 @@
 # Inclusive Avatar Design Guidelines
-### Kexin Zhang, Edward Glenn Scott Spencer Jr., Abijith Manikandan, Andric Li, Ang Li, Yaxing Yao, Yuhang Zhao
+### Kexin Zhang^1, Edward Glenn Scott Spencer Jr., Abijith Manikandan, Andric Li, Ang Li, Yaxing Yao, Yuhang Zhao
 ### University of Wisconsin-Madison
 
 ## 1.  Avatar Body Appearance
