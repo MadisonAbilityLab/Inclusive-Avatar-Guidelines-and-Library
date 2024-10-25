@@ -1,6 +1,7 @@
 # Inclusive Avatar Design Guidelines
-### Kexin Zhang<sup>1</sup>, Edward Glenn Scott Spencer Jr.<sup>2</sup>, Abijith Manikandan<sup>2</sup>, Andric Li<sup>1</sup>, Ang Li<sup>1</sup>, Yaxing Yao, Yuhang Zhao<sup>1</sup>
-### <sup>1</sup>University of Wisconsin-Madison, <sup>2</sup>Virginia Tech
+Kexin Zhang<sup>1</sup>, Edward Glenn Scott Spencer Jr.<sup>2</sup>, Abijith Manikandan<sup>2</sup>, Andric Li<sup>1</sup>, Ang Li<sup>1</sup>, Yaxing Yao<sup>2</sup>, Yuhang Zhao<sup>1</sup>
+
+<sup>1</sup>University of Wisconsin-Madison, <sup>2</sup>Virginia Tech
 
 ## 1.  Avatar Body Appearance
 ### 1.1. Support disability representation in social VR avatars.
