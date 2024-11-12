@@ -5,15 +5,17 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Animations.Rigging;
 
-public class wheelController : MonoBehaviour
-{
-    [SerializeField] WheelCollider mainLeft; 
-    [SerializeField] WheelCollider mainRight;
-    //[SerializeField] WheelCollider frontLeft;
-    //[SerializeField] WheelCollider frontRight;
+public class wheelController : MonoBehaviour{
+
+    [SerializeField] WheelCollider bigLeft; 
+    [SerializeField] WheelCollider bigRight;
+    [SerializeField] WheelCollider smallLeft;
+    [SerializeField] WheelCollider smallRight;
     
-    [SerializeField] Transform mainWheels;
-    //[SerializeField] Transform frontWheels;
+    [SerializeField] Transform bigRightTransform;
+    [SerializeField] Transform bigLeftTransform;
+    [SerializeField] Transform smallRightTransform;
+    [SerializeField] Transform smallLeftTransform;
 
 
     public float acceleration = 500f;
@@ -38,35 +40,36 @@ public class wheelController : MonoBehaviour
         // Get forward/reverse acceleration from the vertical axis (W and S keys)
         currentAcceleration = acceleration * Input.GetAxis("Vertical");
         
+        // If we're pressing space, give currentBreakinForce a value.
         if (Input.GetKey(KeyCode.Space))
             currentBreakForce = breakingForce;
         else 
             currentBreakForce = 0f;
 
-        // Apply acceleration to front wheels
-        mainLeft.motorTorque = currentAcceleration;
-        mainRight.motorTorque = currentAcceleration;
-        //frontLeft.motorTorque = currentAcceleration;
-        //frontRight.motorTorque = currentAcceleration;
+        // Apply acceleration to front wheels.
+        bigLeft.motorTorque = currentAcceleration;
+        bigRight.motorTorque = currentAcceleration;
+        //smallLeft.motorTorque = currentAcceleration;
+        //smallRight.motorTorque = currentAcceleration;
 
-        // Apply braking to front wheels
-        mainLeft.brakeTorque = currentBreakForce;
-        mainRight.brakeTorque = currentBreakForce;
-        //frontLeft.brakeTorque = currentBreakForce;
-        //frontRight.brakeTorque = currentBreakForce;
+        // Apply braking to front wheels.
+        bigLeft.brakeTorque = currentBreakForce;
+        bigRight.brakeTorque = currentBreakForce;
+        smallLeft.brakeTorque = currentBreakForce;
+        smallRight.brakeTorque = currentBreakForce;
 
         // Take care of the steering
         currentTurnAngle = maxTurnAngle * Input.GetAxis("Horizontal");
-        //frontLeft.steerAngle = currentTurnAngle;
-        //frontRight.steerAngle = currentTurnAngle;
+        smallLeft.steerAngle = currentTurnAngle;
+        smallRight.steerAngle = currentTurnAngle;
 
         // Update the wheel meshes
-        UpdateWheel(mainLeft, mainWheels);
-        UpdateWheel(mainRight, mainWheels);
-        //UpdateWheel(frontLeft, frontWheels);
-        //UpdateWheel(frontRight, frontWheels);
+        UpdateWheel(bigLeft, bigLeftTransform);
+        UpdateWheel(bigRight, bigRightTransform);
+        UpdateWheel(smallLeft, smallLeftTransform);
+        UpdateWheel(smallRight, smallRightTransform);
     }
-
+    
     void UpdateWheel(WheelCollider col, Transform trans) 
     {
         // Get wheel collider state
@@ -75,7 +78,7 @@ public class wheelController : MonoBehaviour
         col.GetWorldPose(out position, out rotation);   
 
         // Adjust the rotation to fix the axis
-        rotation *= Quaternion.Euler(0, 90, 0); // Rotate around y-axis
+        rotation *= Quaternion.Euler(0, 0, 90); // Rotate around y-axis
 
         // Set wheel transform state
         trans.position = position;
