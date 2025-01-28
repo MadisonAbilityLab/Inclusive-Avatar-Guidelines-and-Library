@@ -3,8 +3,8 @@ Kexin Zhang<sup>1</sup>, Edward Scott Spencer Jr.<sup>2</sup>, Abijith Manikanda
 
 <sup>1</sup>University of Wisconsin-Madison, <sup>2</sup>Virginia Tech
 
-## G0. Support disability representation in social VR avatars [[1], [2], [3]]
-Approximately 1.3 billion people experience significant disability, representing about 16% of the global population [[4]].
+## G0. Support disability representation in social VR avatars [1], [2], [3] [1, 2, 3]
+Approximately 1.3 billion people experience significant disability, representing about 16% of the global population [4].
 
 
 ## 1.  Avatar Body Appearance
