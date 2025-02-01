@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "com.domybest.mybox": "https://github.com/Deadcows/MyBox.git",
+    "com.meta.xr.simulator": "71.0.0",
     "com.unity.animation.rigging": "1.2.1",
     "com.unity.collab-proxy": "2.2.0",
     "com.unity.feature.development": "1.0.1",

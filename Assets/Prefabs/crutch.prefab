@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTag: CrutchColor
-  newColor: {r: 0.006007465, g: 0.4245283, b: 0.024062127, a: 0}
+  newColor: {r: 0.8018868, g: 0.6847213, b: 0.10969208, a: 0}
 --- !u!114 &3211793066989180299
 MonoBehaviour:
   m_ObjectHideFlags: 0

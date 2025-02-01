@@ -111,4 +111,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTag: GlassesColor
-  newColor: {r: 0.16914289, g: 0.6226415, b: 0.1321645, a: 0}
+  newColor: {r: 0.62352943, g: 0.59401786, b: 0.13333331, a: 0}

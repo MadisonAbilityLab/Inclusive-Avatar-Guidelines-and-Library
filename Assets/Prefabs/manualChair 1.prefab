@@ -1364,7 +1364,7 @@ Transform:
   m_GameObject: {fileID: 3429635202684095997}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.623, y: -3.148, z: -4.76}
+  m_LocalPosition: {x: -6.623, y: -3.14, z: -4.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2896,9 +2896,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f734dac468159b6469294daa3586dbfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainLeft: {fileID: 3536073064338221043}
-  mainRight: {fileID: 5971574444167631682}
-  mainWheels: {fileID: 5181651347946598630}
+  bigLeft: {fileID: 0}
+  bigRight: {fileID: 0}
+  smallLeft: {fileID: 0}
+  smallRight: {fileID: 0}
+  bigRightTransform: {fileID: 0}
+  bigLeftTransform: {fileID: 0}
+  smallRightTransform: {fileID: 0}
+  smallLeftTransform: {fileID: 0}
   acceleration: 500
   breakingForce: 300
   maxTurnAngle: 30
