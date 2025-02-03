@@ -849,8 +849,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8210168469039956064}
-  - component: {fileID: 7330085653728939212}
   - component: {fileID: 4121929091442500013}
+  - component: {fileID: -813841002305899100}
   m_Layer: 0
   m_Name: ForearmCrutch
   m_TagString: Untagged
@@ -875,20 +875,6 @@ Transform:
   - {fileID: 8321034838318799641}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7330085653728939212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9081376877441035949}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b07b15e69a34854ba8380e81aecd49a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetTag: ForearmColor
-  newColor: {r: 0.90588236, g: 0.24313721, b: 0.33339453, a: 1}
 --- !u!114 &4121929091442500013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -903,3 +889,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sizeMultiplier: 0.442
   originalScale: {x: 1, y: 1, z: 1}
+--- !u!114 &-813841002305899100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9081376877441035949}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b07b15e69a34854ba8380e81aecd49a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: ForearmColor
+  newColor: {r: 0.7924528, g: 0.14578143, b: 0.14578143, a: 0}
