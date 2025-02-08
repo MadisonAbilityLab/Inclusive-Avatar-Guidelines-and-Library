@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4813329305054878427
+--- !u!1001 &6453358472918074307
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: efcf928819746c74c81b96bb490b8a57, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.348
+      value: -0.299
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efcf928819746c74c81b96bb490b8a57, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.348
+      value: 0.299
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efcf928819746c74c81b96bb490b8a57, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.348
+      value: 0.299
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efcf928819746c74c81b96bb490b8a57, type: 3}
       propertyPath: m_LocalPosition.x
@@ -62,11 +62,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: efcf928819746c74c81b96bb490b8a57, type: 3}
       propertyPath: m_ConstrainProportionsScale
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: efcf928819746c74c81b96bb490b8a57, type: 3}
       propertyPath: m_Name
-      value: hearingAidRight
+      value: hearingAidLeft
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -74,37 +74,37 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: efcf928819746c74c81b96bb490b8a57, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5214244430168849033}
+      addedObject: {fileID: 3932180469041338733}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: efcf928819746c74c81b96bb490b8a57, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 5943470946179293470}
+      addedObject: {fileID: 8616541406005408781}
   m_SourcePrefab: {fileID: 100100000, guid: efcf928819746c74c81b96bb490b8a57, type: 3}
---- !u!1 &5624160657177520010 stripped
+--- !u!1 &6147279931274903186 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: efcf928819746c74c81b96bb490b8a57, type: 3}
-  m_PrefabInstance: {fileID: 4813329305054878427}
+  m_PrefabInstance: {fileID: 6453358472918074307}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5214244430168849033
+--- !u!114 &3932180469041338733
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5624160657177520010}
+  m_GameObject: {fileID: 6147279931274903186}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cda2b1f32a51a5941a9c805864676b03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sizeMultiplier: 0.348
-  originalScale: {x: 1, y: 1, z: 1}
---- !u!114 &5943470946179293470
+  sizeMultiplier: 0.299
+  originalScale: {x: -1, y: 1, z: 1}
+--- !u!114 &8616541406005408781
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5624160657177520010}
+  m_GameObject: {fileID: 6147279931274903186}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d53500d8d7ea745b588e616618feee34, type: 3}

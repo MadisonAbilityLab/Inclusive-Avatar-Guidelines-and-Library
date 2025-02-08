@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &3604062564393655227
+--- !u!1001 &6867192338229392141
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: -0.609
+      value: 0.609
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
       propertyPath: m_LocalScale.y
@@ -22,15 +22,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.218
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.36
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.519
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -62,7 +62,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
       propertyPath: m_Name
-      value: cochlearImplantLeft Variant
+      value: cochlearImplantRight
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -70,24 +70,41 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 817165621335569486}
+      addedObject: {fileID: 1865104037577478966}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8506918666369458938}
   m_SourcePrefab: {fileID: 100100000, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
---- !u!1 &4523120491144849130 stripped
+--- !u!1 &6020260322340720220 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
-  m_PrefabInstance: {fileID: 3604062564393655227}
+  m_PrefabInstance: {fileID: 6867192338229392141}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &817165621335569486
+--- !u!114 &1865104037577478966
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4523120491144849130}
+  m_GameObject: {fileID: 6020260322340720220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d53500d8d7ea745b588e616618feee34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedMaterialName: Customized Material
+  newColor: {r: 0.54384667, g: 0.11213954, b: 0.6792453, a: 1}
+--- !u!114 &8506918666369458938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6020260322340720220}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cda2b1f32a51a5941a9c805864676b03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   sizeMultiplier: 0.609
-  originalScale: {x: -1, y: 1, z: 1}
+  originalScale: {x: 1, y: 1, z: 1}
