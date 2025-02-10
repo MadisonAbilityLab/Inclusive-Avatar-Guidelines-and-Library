@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
       propertyPath: m_LocalScale.x
-      value: -0.609
+      value: -0.51
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.609
+      value: 0.51
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.609
+      value: 0.51
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
       propertyPath: m_LocalPosition.x
@@ -30,7 +30,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.519
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c3a558882f1e54d748cd0e9be1ba11cf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cda2b1f32a51a5941a9c805864676b03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sizeMultiplier: 0.609
+  sizeMultiplier: 0.51
   originalScale: {x: -1, y: 1, z: 1}
 --- !u!114 &7526687939197917817
 MonoBehaviour:
@@ -107,4 +107,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedMaterialName: Customized Material
-  newColor: {r: 1, g: 1, b: 1, a: 1}
+  newColor: {r: 0.50028783, g: 0.054901958, b: 0.9137255, a: 1}
