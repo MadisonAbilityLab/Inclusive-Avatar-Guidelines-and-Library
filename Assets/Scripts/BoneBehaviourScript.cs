@@ -2,30 +2,48 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
-// using Unity.VisualScripting.Dependencies.Sqlite;
 using UnityEditor;
-using System.Reflection;
-using System.Linq;
 
-
-
+[ExecuteInEditMode]
 public class BoneBehaviorScript : MonoBehaviour
 {
     [Serializable]
     public struct BoneInfo
     {
         public GameObject bone;
-        public float length;
+        [Range(0, 1)] public float length;
     }
 
     [SerializeField]
     public List<BoneInfo> bones = new List<BoneInfo>();
+
     private List<BoneInfo> prevBones = new List<BoneInfo>();
 
-    void onBonesChange()
+    public void UpdateBones()
     {
-        Debug.Log("On Bone Change");
+        if (isBoneChanged())
+        {
+            for (int i = 0; i < prevBones.Count; i++)
+            {
+                if (prevBones[i].bone != null)
+                {
+                    MakeAllChildrenSize(prevBones[i].bone, 1);
+                    prevBones[i].bone.transform.localScale = new Vector3(1, 1, 1);
+                }
+            }
+            setPrevBonesToCurrent();
+        }
+
+        for (int i = 0; i < bones.Count; i++)
+        {
+            if (bones[i].bone != null)
+            {
+                MakeAllChildrenSize(bones[i].bone, 0);
+                bones[i].bone.transform.localScale = new Vector3(1, bones[i].length, 1);
+            }
+        }
     }
+
     bool isBoneChanged()
     {
         if (prevBones.Count != bones.Count)
@@ -42,6 +60,7 @@ public class BoneBehaviorScript : MonoBehaviour
         }
         return false;
     }
+
     void setPrevBonesToCurrent()
     {
         prevBones.Clear();
@@ -51,69 +70,35 @@ public class BoneBehaviorScript : MonoBehaviour
         }
     }
 
-    public GameObject root;
-
-    // private GameObject lastBone;
-
-    // [SerializeField]
-    // bool changed = true;
-
-    // public bool reset = false;
-
-    // float childrenSize = 0;
-
-    // [SerializeField]
-    // float length = 1;
-
-    // public Vector3 scale = Vector3.one;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
     void MakeAllChildrenSize(GameObject gameObject, float size = 0)
     {
         for (int i = 0; i < gameObject.transform.childCount; i++)
         {
             GameObject go = gameObject.transform.GetChild(i).gameObject;
-
-            // Debug.Log(go);
-
             go.transform.localScale = new Vector3(size, size, size);
         }
     }
-
-    // Update is called once per frame
-    void Update()
+#if UNITY_EDITOR
+    private void OnValidate()
     {
-        if (isBoneChanged())
+        UpdateBones();
+    }
+#endif
+}
+
+#if UNITY_EDITOR
+[CustomEditor(typeof(BoneBehaviorScript))]
+public class BoneBehaviorEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        DrawDefaultInspector();
+        BoneBehaviorScript script = (BoneBehaviorScript)target;
+
+        if (GUILayout.Button("Update Bones"))
         {
-            for (int i = 0; i < prevBones.Count; i++)
-            {
-                var bone = prevBones[i];
-                MakeAllChildrenSize(bone.bone, 1);
-                bone.bone.transform.localScale = new Vector3(1, 1, 1);
-            }
-
-            setPrevBonesToCurrent();
-        }
-
-        for (int i = 0; i < bones.Count; i++)
-        {
-            var bone = bones[i];
-            if (bone.length < 0)
-            {
-                bone.length = 0;
-            }
-            if (bone.length > 1)
-            {
-                bone.length = 1;
-            }
-
-            MakeAllChildrenSize(bone.bone, 0);
-
-            bone.bone.transform.localScale = new Vector3(1, bone.length, 1);
+            script.UpdateBones();
         }
     }
 }
+#endif
