@@ -1,21 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
-using MyBox;
 using UnityEngine;
 
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
+
+[ExecuteInEditMode]
 public class EyeBehaviour : MonoBehaviour
 {
     GameObject leftEyeBall;
     GameObject rightEyeBall;
 
     [Range(-0.5f, 0.5f)]
-    public float leftEyeSize = 1;
+    public float leftEyeSize = 0;
     [Range(-0.5f, 0.5f)]
-    public float rightEyeSize = 1;
+    public float rightEyeSize = 0;
 
     public bool autoAnimate = false;
-    // Start is called before the first frame update
+
+    void Awake()
+    {
+        FindEyes();
+    }
+
     void Start()
+    {
+        FindEyes();
+    }
+
+    void FindEyes()
     {
         Transform reference = transform.Find("master/Reference");
         if (reference != null)
@@ -38,8 +52,21 @@ public class EyeBehaviour : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
+    {
+        if (Application.isPlaying) // Only update in Play Mode
+        {
+            UpdateEyeSize();
+        }
+    }
+
+    void OnValidate()
+    {
+        FindEyes();
+        UpdateEyeSize();
+    }
+
+    void UpdateEyeSize()
     {
         if (leftEyeBall)
         {
