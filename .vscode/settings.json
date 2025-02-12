@@ -52,5 +52,8 @@
         "Temp/": true
     },
     "dotnet.defaultSolution": "Inclusive-Avatar-Guidelines-and-Library.sln",
-    "dotnet.preferCSharpExtension": true
+    "dotnet.preferCSharpExtension": true,
+    "cSpell.words": [
+        "Behaviour"
+    ]
 }
