@@ -4,7 +4,7 @@ Kexin Zhang<sup>1</sup>, Edward Scott Spencer Jr.<sup>2</sup>, Abijith Manikanda
 <sup>1</sup>University of Wisconsin-Madison, <sup>2</sup>Virginia Tech
 
 ## G0. Support disability representation in social VR avatars.
-Approximately 1.3 billion people experience significant disability, representing about 16% of the global population [[1](#1), [2](#2)]. It’s important to ensure people with disabilities are included and represented equally in emerging technology such as social VR. As long as the platform involves avatar-based interactions, there is design space to support disability representation. The following set of guidelines can be flexibly applied to a variety of social VR platforms with different (1) avatar types (e.g., humanoid avatars in Rec Room [ 64] vs. robotic-type avatars in Among Us), (2) aesthetic styles (e.g., life-like avatars in Horizon Worlds vs. abstract avatars in Roblox)), and (3) content focus (e.g., communication-heavy type in VRChat vs. game-centric in Rec Room). We encourage practitioners to adopt G0 as a fundamental mindset when developing and designing avatars, considering it in the early stages, and consistently exploring opportunities to support disability representation.
+Approximately 1.3 billion people experience significant disability, representing about 16% of the global population. It’s important to ensure people with disabilities are included and represented equally in emerging technology such as social VR. As long as the platform involves avatar-based interactions, there is design space to support disability representation. The following set of guidelines can be flexibly applied to a variety of social VR platforms with different (1) avatar types (e.g., humanoid avatars in Rec Room [ 64] vs. robotic-type avatars in Among Us), (2) aesthetic styles (e.g., life-like avatars in Horizon Worlds vs. abstract avatars in Roblox)), and (3) content focus (e.g., communication-heavy type in VRChat vs. game-centric in Rec Room). We encourage practitioners to adopt G0 as a fundamental mindset when developing and designing avatars, considering it in the early stages, and consistently exploring opportunities to support disability representation.
 
 
 ## G1.  Avatar Body Appearance
@@ -289,11 +289,3 @@ People don’t want to be defined by their disability and show their disability 
 Users should be able to turn disability-related features on and off with a single click.
 
 <img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G5.3.gif" alt="G5.2. Example" width="370" height="130">
-
-
-## References 
-<a id="1">[1]</a> 
-Ria J. Gualano, Lucy Jiang, Kexin Zhang, Tanisha Shende, Andrea Stevenson Won, and Shiri Azenkot. 2024. “I Try to Represent Myself as I Am”: Self-Presentation Preferences of People with Invisible Disabilities through Embodied Social VR Avatars. In Proceedings of the 26th International ACM SIGACCESS Conference on Computers and Accessibility (St. John’s, NL, Canada) (ASSETS ’24). Association for Computing Machinery, New York, NY, USA, Article 72, 15 pages. https://doi.org/10.1145/3663548.3675620
-
-<a id="2">[2]</a> 
-Kexin Zhang, Elmira Deldari, Zhicong Lu, Yaxing Yao, and Yuhang Zhao. 2022. “It’s Just Part of Me:” Understanding Avatar Diversity and Self-presentation of People with Disabilities in Social Virtual Reality. In Proceedings of the 24th International ACM SIGACCESS Conference on Computers and Accessibility (ASSETS ’22). Association for Computing Machinery, New York, NY, USA, Article 4, 16 pages. https://doi.org/10.1145/3517428.3544829
