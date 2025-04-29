@@ -138,7 +138,7 @@ Practitioners should consider including at least these five categories of assist
 <p align="right">– a wheelchair user</p>
 
 <ins>Example:</ins>
-Offer multiple types of mobility aids, such as crutches (left)[^5] and prosthetic limb (right)[^6]. 
+Offer multiple types of mobility aids, such as walking aids and wheelchair. 
 
 <img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.1.png" alt="G3.1. Example" width="320" height="160">
 
