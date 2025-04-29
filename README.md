@@ -142,7 +142,7 @@ Practitioners should consider including at least these five categories of assist
 <ins>Example:</ins>
 Offer multiple types of mobility aids, such as crutches (left)[^5] and prosthetic limb (right)[^6]. 
 
-<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.1.png" alt="G3.1. Example" width="320" height="200">
+<img src="https://github.com/MadisonAbilityLab/Inclusive-Avatar-Guidelines-and-Library/blob/main/guidelines_image/G3.1.png" alt="G3.1. Example" width="320" height="180">
 
 ### G3.2. Allow detailed customization of assistive technology for personalized disability representation (HR).
 
