@@ -127,9 +127,7 @@ The avatar with the wheelchair moves at the same speed as the avatar without the
 ## G3. Assistive Technology Design
 ### G3.1. Offer various types of assistive technology to cover a wide range of disabilities (HR). 
 
-People with disabilities see their assistive technologies as an extension of their body. An avatar which features the specific assistive technology they use is important because it helps represent their identities and offers a feeling of empowerment, inclusion, and immersion. Avatar platforms should therefore offer assistive technologies that are commonly used by people with different types of disabilities. 
-
-According to our large-scale interview data, the most desired types of assistive technologies include: (1) mobility aids (e.g., wheelchair, cane, and crutches); (2) prosthetic limbs; (3) visual aids (e.g., white cane, glasses, and guide dog); (4) hearing aids and cochlear implants; and (5) health monitoring devices (e.g., insulin pumps, ventilator, smart watches). 
+Avatar interfaces should offer assistive technologies that are commonly used by PWD. According to our large-scale interview data, the most desired types of assistive technologies include: (1) mobility aids (e.g., wheelchair, cane, and crutches); (2) prosthetic limbs; (3) visual aids (e.g., white cane, glasses, and guide dog); (4) hearing aids and cochlear implants; and (5) health monitoring devices (e.g., insulin pumps, ventilator, smart watches). 
 
 Practitioners should consider including at least these five categories of assistive technologies in avatar interfaces. In addition, due to people with disabilities’ different technology preferences, we encourage practitioners to offer more than one assistive technology option within each category, for example, including guide dog, white cane, and glasses for visual aids.
 
