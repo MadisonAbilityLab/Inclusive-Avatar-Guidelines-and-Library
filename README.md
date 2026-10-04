@@ -112,7 +112,7 @@ Avatar shows diverse emotions, including anxiety (left), sadness (middle), and h
 
 While people with disabilities should have the option to reflect their unique movements through their avatars if they so choose (e.g., limp while walking), these movement characteristics should not impact the capabilities or performance of the avatar, thus creating a fair user experience for all. For example, the movement speed of an avatar in a wheelchair should be the same as the walking speed of other avatars. 
 
-*“I walk with a slight limp, [but] I don't think I need the actual movement [on avatars] to reflect how [fast] I walk. [Because] when I use games, I see the movement aspect more of a practicality than part of the game [...] I think having a limp would be cool, but I wouldn't want to be slower than [other avatars]. I wouldn't want to have a maximum speed, because I chose to have a limp earlier in the avatar making process."* 
+*“I walk with a slight limp, [but] I don't think I need the actual movement [on avatars] to reflect how [fast] I walk. [Because] when I use games, I see the movement aspect more of a practicality than part of the game [...] I think having a limp would be cool, but I wouldn't want to be slower than [other avatars]."* 
 <p align="right">– a person with mobility disabilities</p>
 
 *“Being able to just keep up with peers’ [avatars], pace-wise, would be the most important thing.”* 
